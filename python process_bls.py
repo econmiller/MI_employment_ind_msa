@@ -195,7 +195,8 @@ def run_pipeline():
 
   # 6. Save JSON locally
   os.makedirs("public/data", exist_ok=True)
-  output_path = "public/data/michigan_employment.json"
+  output_path = "michigan_employment.json"
+#  output_path = "public/data/michigan_employment.json"
   with open(output_path, "w", encoding="utf-8") as f:
     json.dump(output_data, f, indent=2)
 

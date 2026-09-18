@@ -1,0 +1,5686 @@
+{
+  "metadata": {
+    "latest_period": "2026-07",
+    "prior_month": "2026-06",
+    "prior_year": "2025-07",
+    "unit": "Thousands of Persons"
+  },
+  "areas": {
+    "00000": "Statewide",
+    "11460": "Ann Arbor, MI",
+    "12980": "Battle Creek, MI",
+    "13020": "Bay City, MI",
+    "19804": "Detroit-Dearborn-Livonia, MI Metropolitan Division",
+    "19820": "Detroit-Warren-Dearborn, MI",
+    "22420": "Flint, MI",
+    "24340": "Grand Rapids-Wyoming-Kentwood, MI",
+    "27100": "Jackson, MI",
+    "28020": "Kalamazoo-Portage, MI",
+    "29620": "Lansing-East Lansing, MI",
+    "33220": "Midland, MI",
+    "33780": "Monroe, MI",
+    "34740": "Muskegon-Norton Shores, MI",
+    "35660": "Niles, MI",
+    "40980": "Saginaw, MI",
+    "45900": "Traverse City, MI",
+    "47664": "Warren-Troy-Farmington Hills, MI Metropolitan Division"
+  },
+  "data": {
+    "00000": [
+      {
+        "series_id": "SMU26000000000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 4499.1,
+        "mom_chg": -50.4,
+        "yoy_chg": 18.7,
+        "yoy_pct": 0.42
+      },
+      {
+        "series_id": "SMU26000000500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 3897.1,
+        "mom_chg": -22.2,
+        "yoy_chg": 5.9,
+        "yoy_pct": 0.15
+      },
+      {
+        "series_id": "SMU26000000600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 805.1,
+        "mom_chg": 0.4,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.07
+      },
+      {
+        "series_id": "SMU26000000700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 3694.0,
+        "mom_chg": -50.8,
+        "yoy_chg": 18.1,
+        "yoy_pct": 0.49
+      },
+      {
+        "series_id": "SMU26000000800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 3092.0,
+        "mom_chg": -22.6,
+        "yoy_chg": 5.3,
+        "yoy_pct": 0.17
+      },
+      {
+        "series_id": "SMU26000001000000001          ",
+        "industry_code": "10000000",
+        "industry_name": "Mining and Logging",
+        "depth": 2,
+        "current_val": 7.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.4,
+        "yoy_pct": 5.56
+      },
+      {
+        "series_id": "SMU26000001500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 219.8,
+        "mom_chg": 2.3,
+        "yoy_chg": -1.4,
+        "yoy_pct": -0.63
+      },
+      {
+        "series_id": "SMU26000002000000001          ",
+        "industry_code": "20000000",
+        "industry_name": "Construction",
+        "depth": 2,
+        "current_val": 212.2,
+        "mom_chg": 2.3,
+        "yoy_chg": -1.8,
+        "yoy_pct": -0.84
+      },
+      {
+        "series_id": "SMU26000002023600001          ",
+        "industry_code": "20236000",
+        "industry_name": "Construction of Buildings",
+        "depth": 4,
+        "current_val": 49.1,
+        "mom_chg": 0.6,
+        "yoy_chg": -2.0,
+        "yoy_pct": -3.91
+      },
+      {
+        "series_id": "SMU26000002023700001          ",
+        "industry_code": "20237000",
+        "industry_name": "Heavy and Civil Engineering Construction",
+        "depth": 4,
+        "current_val": 26.1,
+        "mom_chg": 0.3,
+        "yoy_chg": -0.2,
+        "yoy_pct": -0.76
+      },
+      {
+        "series_id": "SMU26000002023800001          ",
+        "industry_code": "20238000",
+        "industry_name": "Specialty Trade Contractors",
+        "depth": 4,
+        "current_val": 137.0,
+        "mom_chg": 1.4,
+        "yoy_chg": 0.4,
+        "yoy_pct": 0.29
+      },
+      {
+        "series_id": "SMU26000002023810001          ",
+        "industry_code": "20238100",
+        "industry_name": "Foundation, Structure, and Building Exterior Contractors",
+        "depth": 4,
+        "current_val": 22.2,
+        "mom_chg": 0.4,
+        "yoy_chg": -0.4,
+        "yoy_pct": -1.77
+      },
+      {
+        "series_id": "SMU26000002023820001          ",
+        "industry_code": "20238200",
+        "industry_name": "Building Equipment Contractors",
+        "depth": 4,
+        "current_val": 69.8,
+        "mom_chg": 0.9,
+        "yoy_chg": 0.9,
+        "yoy_pct": 1.31
+      },
+      {
+        "series_id": "SMU26000002023830001          ",
+        "industry_code": "20238300",
+        "industry_name": "Building Finishing Contractors",
+        "depth": 4,
+        "current_val": 18.4,
+        "mom_chg": 0.3,
+        "yoy_chg": -0.4,
+        "yoy_pct": -2.13
+      },
+      {
+        "series_id": "SMU26000002023890001          ",
+        "industry_code": "20238900",
+        "industry_name": "Other Specialty Trade Contractors",
+        "depth": 4,
+        "current_val": 26.6,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.3,
+        "yoy_pct": 1.14
+      },
+      {
+        "series_id": "SMU26000003000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 585.3,
+        "mom_chg": -1.9,
+        "yoy_chg": 2.0,
+        "yoy_pct": 0.34
+      },
+      {
+        "series_id": "SMU26000003100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 437.2,
+        "mom_chg": -2.8,
+        "yoy_chg": 5.6,
+        "yoy_pct": 1.3
+      },
+      {
+        "series_id": "SMU26000003132700001          ",
+        "industry_code": "31327000",
+        "industry_name": "Nonmetallic Mineral Product Manufacturing",
+        "depth": 4,
+        "current_val": 13.0,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.3,
+        "yoy_pct": 2.36
+      },
+      {
+        "series_id": "SMU26000003133100001          ",
+        "industry_code": "31331000",
+        "industry_name": "Primary Metal Manufacturing",
+        "depth": 4,
+        "current_val": 18.4,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.54
+      },
+      {
+        "series_id": "SMU26000003133150001          ",
+        "industry_code": "31331500",
+        "industry_name": "Foundries",
+        "depth": 4,
+        "current_val": 9.8,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.2,
+        "yoy_pct": 2.08
+      },
+      {
+        "series_id": "SMU26000003133200001          ",
+        "industry_code": "31332000",
+        "industry_name": "Fabricated Metal Product Manufacturing",
+        "depth": 4,
+        "current_val": 69.6,
+        "mom_chg": -0.3,
+        "yoy_chg": 1.2,
+        "yoy_pct": 1.75
+      },
+      {
+        "series_id": "SMU26000003133270001          ",
+        "industry_code": "31332700",
+        "industry_name": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing",
+        "depth": 4,
+        "current_val": 23.7,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26000003133290001          ",
+        "industry_code": "31332900",
+        "industry_name": "Other Fabricated Metal Product Manufacturing",
+        "depth": 4,
+        "current_val": 10.8,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 0.93
+      },
+      {
+        "series_id": "SMU26000003133300001          ",
+        "industry_code": "31333000",
+        "industry_name": "Machinery Manufacturing",
+        "depth": 4,
+        "current_val": 65.9,
+        "mom_chg": -1.2,
+        "yoy_chg": 0.3,
+        "yoy_pct": 0.46
+      },
+      {
+        "series_id": "SMU26000003133350001          ",
+        "industry_code": "31333500",
+        "industry_name": "Metalworking Machinery Manufacturing",
+        "depth": 4,
+        "current_val": 27.6,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.3,
+        "yoy_pct": -1.08
+      },
+      {
+        "series_id": "SMU26000003133400001          ",
+        "industry_code": "31334000",
+        "industry_name": "Computer and Electronic Product Manufacturing",
+        "depth": 4,
+        "current_val": 22.3,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 0.45
+      },
+      {
+        "series_id": "SMU26000003133600001          ",
+        "industry_code": "31336000",
+        "industry_name": "Transportation Equipment Manufacturing",
+        "depth": 4,
+        "current_val": 172.3,
+        "mom_chg": -1.6,
+        "yoy_chg": 1.3,
+        "yoy_pct": 0.76
+      },
+      {
+        "series_id": "SMU26000003133610001          ",
+        "industry_code": "31336100",
+        "industry_name": "Motor Vehicle Manufacturing",
+        "depth": 4,
+        "current_val": 45.3,
+        "mom_chg": -1.2,
+        "yoy_chg": 1.5,
+        "yoy_pct": 3.42
+      },
+      {
+        "series_id": "SMU26000003133630001          ",
+        "industry_code": "31336300",
+        "industry_name": "Motor Vehicle Parts Manufacturing",
+        "depth": 4,
+        "current_val": 109.2,
+        "mom_chg": -0.3,
+        "yoy_chg": -0.3,
+        "yoy_pct": -0.27
+      },
+      {
+        "series_id": "SMU26000003133700001          ",
+        "industry_code": "31337000",
+        "industry_name": "Furniture and Related Product Manufacturing",
+        "depth": 4,
+        "current_val": 19.9,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26000003200000001          ",
+        "industry_code": "32000000",
+        "industry_name": "Non-Durable Goods",
+        "depth": 2,
+        "current_val": 148.1,
+        "mom_chg": 0.9,
+        "yoy_chg": -3.6,
+        "yoy_pct": -2.37
+      },
+      {
+        "series_id": "SMU26000003231100001          ",
+        "industry_code": "32311000",
+        "industry_name": "Food Manufacturing",
+        "depth": 4,
+        "current_val": 44.3,
+        "mom_chg": 1.1,
+        "yoy_chg": -0.3,
+        "yoy_pct": -0.67
+      },
+      {
+        "series_id": "SMU26000003232300001          ",
+        "industry_code": "32323000",
+        "industry_name": "Printing and Related Support Activities",
+        "depth": 4,
+        "current_val": 10.8,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.6,
+        "yoy_pct": -5.26
+      },
+      {
+        "series_id": "SMU26000003232500001          ",
+        "industry_code": "32325000",
+        "industry_name": "Chemical Manufacturing",
+        "depth": 4,
+        "current_val": 29.3,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.7,
+        "yoy_pct": -2.33
+      },
+      {
+        "series_id": "SMU26000003232600001          ",
+        "industry_code": "32326000",
+        "industry_name": "Plastics and Rubber Products Manufacturing",
+        "depth": 4,
+        "current_val": 36.6,
+        "mom_chg": -0.3,
+        "yoy_chg": -0.9,
+        "yoy_pct": -2.4
+      },
+      {
+        "series_id": "SMU26000003232610001          ",
+        "industry_code": "32326100",
+        "industry_name": "Plastics Product Manufacturing",
+        "depth": 4,
+        "current_val": 32.3,
+        "mom_chg": -0.2,
+        "yoy_chg": -0.5,
+        "yoy_pct": -1.52
+      },
+      {
+        "series_id": "SMU26000004000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 803.3,
+        "mom_chg": -0.1,
+        "yoy_chg": -2.8,
+        "yoy_pct": -0.35
+      },
+      {
+        "series_id": "SMU26000004100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 172.5,
+        "mom_chg": -0.4,
+        "yoy_chg": -2.8,
+        "yoy_pct": -1.6
+      },
+      {
+        "series_id": "SMU26000004142300001          ",
+        "industry_code": "41423000",
+        "industry_name": "Merchant Wholesalers, Durable Goods",
+        "depth": 4,
+        "current_val": 110.5,
+        "mom_chg": -0.4,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26000004142310001          ",
+        "industry_code": "41423100",
+        "industry_name": "Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers",
+        "depth": 4,
+        "current_val": 26.5,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26000004142400001          ",
+        "industry_code": "41424000",
+        "industry_name": "Merchant Wholesalers, Nondurable Goods",
+        "depth": 4,
+        "current_val": 50.2,
+        "mom_chg": 0.0,
+        "yoy_chg": -2.7,
+        "yoy_pct": -5.1
+      },
+      {
+        "series_id": "SMU26000004142500001          ",
+        "industry_code": "41425000",
+        "industry_name": "Wholesale Trade Agents and Brokers",
+        "depth": 4,
+        "current_val": 11.8,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.84
+      },
+      {
+        "series_id": "SMU26000004200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 458.3,
+        "mom_chg": 0.7,
+        "yoy_chg": 1.8,
+        "yoy_pct": 0.39
+      },
+      {
+        "series_id": "SMU26000004244100001          ",
+        "industry_code": "42441000",
+        "industry_name": "Motor Vehicle and Parts Dealers",
+        "depth": 4,
+        "current_val": 65.9,
+        "mom_chg": 0.2,
+        "yoy_chg": 0.7,
+        "yoy_pct": 1.07
+      },
+      {
+        "series_id": "SMU26000004244400001          ",
+        "industry_code": "42444000",
+        "industry_name": "Building Material and Garden Equipment and Supplies Dealers",
+        "depth": 4,
+        "current_val": 48.6,
+        "mom_chg": -0.6,
+        "yoy_chg": -0.2,
+        "yoy_pct": -0.41
+      },
+      {
+        "series_id": "SMU26000004245500001          ",
+        "industry_code": "42455000",
+        "industry_name": "General Merchandise Retailers",
+        "depth": 4,
+        "current_val": 111.8,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.7,
+        "yoy_pct": -0.62
+      },
+      {
+        "series_id": "SMU26000004245600001          ",
+        "industry_code": "42456000",
+        "industry_name": "Health and Personal Care Retailers",
+        "depth": 4,
+        "current_val": 30.9,
+        "mom_chg": 0.1,
+        "yoy_chg": -1.3,
+        "yoy_pct": -4.04
+      },
+      {
+        "series_id": "SMU26000004245900001          ",
+        "industry_code": "42459000",
+        "industry_name": "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers",
+        "depth": 4,
+        "current_val": 46.8,
+        "mom_chg": 0.6,
+        "yoy_chg": 0.7,
+        "yoy_pct": 1.52
+      },
+      {
+        "series_id": "SMU26000004300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 172.5,
+        "mom_chg": -0.4,
+        "yoy_chg": -1.8,
+        "yoy_pct": -1.03
+      },
+      {
+        "series_id": "SMU26000004322000001          ",
+        "industry_code": "43220000",
+        "industry_name": "Utilities",
+        "depth": 3,
+        "current_val": 20.9,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.8,
+        "yoy_pct": 3.98
+      },
+      {
+        "series_id": "SMU26000004340008901          ",
+        "industry_code": "43400089",
+        "industry_name": "Transportation and Warehousing",
+        "depth": 5,
+        "current_val": 151.6,
+        "mom_chg": -0.3,
+        "yoy_chg": -2.6,
+        "yoy_pct": -1.69
+      },
+      {
+        "series_id": "SMU26000004348400001          ",
+        "industry_code": "43484000",
+        "industry_name": "Truck Transportation",
+        "depth": 4,
+        "current_val": 44.7,
+        "mom_chg": -0.1,
+        "yoy_chg": -1.1,
+        "yoy_pct": -2.4
+      },
+      {
+        "series_id": "SMU26000004348410001          ",
+        "industry_code": "43484100",
+        "industry_name": "General Freight Trucking",
+        "depth": 4,
+        "current_val": 33.6,
+        "mom_chg": -0.2,
+        "yoy_chg": -0.5,
+        "yoy_pct": -1.47
+      },
+      {
+        "series_id": "SMU26000004348420001          ",
+        "industry_code": "43484200",
+        "industry_name": "Specialized Freight Trucking",
+        "depth": 4,
+        "current_val": 11.1,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.6,
+        "yoy_pct": -5.13
+      },
+      {
+        "series_id": "SMU26000005000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 53.7,
+        "mom_chg": 0.9,
+        "yoy_chg": -1.7,
+        "yoy_pct": -3.07
+      },
+      {
+        "series_id": "SMU26000005500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 243.8,
+        "mom_chg": -1.0,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.08
+      },
+      {
+        "series_id": "SMU26000005552000001          ",
+        "industry_code": "55520000",
+        "industry_name": "Finance and Insurance",
+        "depth": 3,
+        "current_val": 183.1,
+        "mom_chg": -0.9,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26000005552200001          ",
+        "industry_code": "55522000",
+        "industry_name": "Credit Intermediation and Related Activities including Monetary Authorities - Central Bank",
+        "depth": 4,
+        "current_val": 80.7,
+        "mom_chg": -0.4,
+        "yoy_chg": 1.1,
+        "yoy_pct": 1.38
+      },
+      {
+        "series_id": "SMU26000005553000001          ",
+        "industry_code": "55530000",
+        "industry_name": "Real Estate and Rental and Leasing",
+        "depth": 3,
+        "current_val": 60.7,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.33
+      },
+      {
+        "series_id": "SMU26000006000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 607.7,
+        "mom_chg": -24.5,
+        "yoy_chg": -2.5,
+        "yoy_pct": -0.41
+      },
+      {
+        "series_id": "SMU26000006054000001          ",
+        "industry_code": "60540000",
+        "industry_name": "Professional, Scientific, and Technical Services",
+        "depth": 3,
+        "current_val": 304.7,
+        "mom_chg": -2.6,
+        "yoy_chg": -3.8,
+        "yoy_pct": -1.23
+      },
+      {
+        "series_id": "SMU26000006054130001          ",
+        "industry_code": "60541300",
+        "industry_name": "Architectural, Engineering, and Related Services",
+        "depth": 4,
+        "current_val": 85.5,
+        "mom_chg": -1.0,
+        "yoy_chg": 1.7,
+        "yoy_pct": 2.03
+      },
+      {
+        "series_id": "SMU26000006054150001          ",
+        "industry_code": "60541500",
+        "industry_name": "Computer Systems Design and Related Services",
+        "depth": 4,
+        "current_val": 45.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -1.2,
+        "yoy_pct": -2.59
+      },
+      {
+        "series_id": "SMU26000006054190001          ",
+        "industry_code": "60541900",
+        "industry_name": "Other Professional, Scientific, and Technical Services",
+        "depth": 4,
+        "current_val": 35.0,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.2,
+        "yoy_pct": -0.57
+      },
+      {
+        "series_id": "SMU26000006055000001          ",
+        "industry_code": "60550000",
+        "industry_name": "Management of Companies and Enterprises",
+        "depth": 3,
+        "current_val": 63.4,
+        "mom_chg": 0.5,
+        "yoy_chg": -1.5,
+        "yoy_pct": -2.31
+      },
+      {
+        "series_id": "SMU26000006056000001          ",
+        "industry_code": "60560000",
+        "industry_name": "Administrative and Support and Waste Management and Remediation Services",
+        "depth": 3,
+        "current_val": 239.6,
+        "mom_chg": -22.4,
+        "yoy_chg": 2.8,
+        "yoy_pct": 1.18
+      },
+      {
+        "series_id": "SMU26000006056130001          ",
+        "industry_code": "60561300",
+        "industry_name": "Employment Services",
+        "depth": 4,
+        "current_val": 81.8,
+        "mom_chg": -21.4,
+        "yoy_chg": 3.0,
+        "yoy_pct": 3.81
+      },
+      {
+        "series_id": "SMU26000006056132001          ",
+        "industry_code": "60561320",
+        "industry_name": "Temporary Help Services",
+        "depth": 5,
+        "current_val": 64.7,
+        "mom_chg": -21.4,
+        "yoy_chg": 1.6,
+        "yoy_pct": 2.54
+      },
+      {
+        "series_id": "SMU26000006056170001          ",
+        "industry_code": "60561700",
+        "industry_name": "Services to Buildings and Dwellings",
+        "depth": 4,
+        "current_val": 70.3,
+        "mom_chg": -0.8,
+        "yoy_chg": -1.2,
+        "yoy_pct": -1.68
+      },
+      {
+        "series_id": "SMU26000006500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 738.6,
+        "mom_chg": -0.6,
+        "yoy_chg": 6.1,
+        "yoy_pct": 0.83
+      },
+      {
+        "series_id": "SMU26000006561000001          ",
+        "industry_code": "65610000",
+        "industry_name": "Private Educational Services",
+        "depth": 3,
+        "current_val": 75.1,
+        "mom_chg": -3.7,
+        "yoy_chg": 0.5,
+        "yoy_pct": 0.67
+      },
+      {
+        "series_id": "SMU26000006561110001          ",
+        "industry_code": "65611100",
+        "industry_name": "Private Elementary and Secondary Schools",
+        "depth": 4,
+        "current_val": 28.0,
+        "mom_chg": -1.8,
+        "yoy_chg": 1.4,
+        "yoy_pct": 5.26
+      },
+      {
+        "series_id": "SMU26000006561130001          ",
+        "industry_code": "65611300",
+        "industry_name": "Private Colleges, Universities, and Professional Schools",
+        "depth": 4,
+        "current_val": 21.5,
+        "mom_chg": -0.8,
+        "yoy_chg": -0.3,
+        "yoy_pct": -1.38
+      },
+      {
+        "series_id": "SMU26000006562000001          ",
+        "industry_code": "65620000",
+        "industry_name": "Health Care and Social Assistance",
+        "depth": 3,
+        "current_val": 663.5,
+        "mom_chg": 3.1,
+        "yoy_chg": 5.6,
+        "yoy_pct": 0.85
+      },
+      {
+        "series_id": "SMU26000006562100001          ",
+        "industry_code": "65621000",
+        "industry_name": "Ambulatory Health Care Services",
+        "depth": 4,
+        "current_val": 229.9,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.26
+      },
+      {
+        "series_id": "SMU26000006562110001          ",
+        "industry_code": "65621100",
+        "industry_name": "Offices of Physicians",
+        "depth": 4,
+        "current_val": 73.6,
+        "mom_chg": -0.3,
+        "yoy_chg": -0.8,
+        "yoy_pct": -1.08
+      },
+      {
+        "series_id": "SMU26000006562140001          ",
+        "industry_code": "65621400",
+        "industry_name": "Outpatient Care Centers",
+        "depth": 4,
+        "current_val": 21.7,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 1.4
+      },
+      {
+        "series_id": "SMU26000006562160001          ",
+        "industry_code": "65621600",
+        "industry_name": "Home Health Care Services",
+        "depth": 4,
+        "current_val": 47.6,
+        "mom_chg": 0.3,
+        "yoy_chg": 1.4,
+        "yoy_pct": 3.03
+      },
+      {
+        "series_id": "SMU26000006562200001          ",
+        "industry_code": "65622000",
+        "industry_name": "Hospitals",
+        "depth": 4,
+        "current_val": 218.2,
+        "mom_chg": 0.4,
+        "yoy_chg": 1.6,
+        "yoy_pct": 0.74
+      },
+      {
+        "series_id": "SMU26000006562210001          ",
+        "industry_code": "65622100",
+        "industry_name": "General Medical and Surgical Hospitals",
+        "depth": 4,
+        "current_val": 208.6,
+        "mom_chg": 0.4,
+        "yoy_chg": 2.9,
+        "yoy_pct": 1.41
+      },
+      {
+        "series_id": "SMU26000006562300001          ",
+        "industry_code": "65623000",
+        "industry_name": "Nursing and Residential Care Facilities",
+        "depth": 4,
+        "current_val": 112.7,
+        "mom_chg": 2.0,
+        "yoy_chg": 4.0,
+        "yoy_pct": 3.68
+      },
+      {
+        "series_id": "SMU26000006562310001          ",
+        "industry_code": "65623100",
+        "industry_name": "Nursing Care Facilities (Skilled Nursing Facilities)",
+        "depth": 4,
+        "current_val": 45.2,
+        "mom_chg": 0.3,
+        "yoy_chg": 1.5,
+        "yoy_pct": 3.43
+      },
+      {
+        "series_id": "SMU26000006562400001          ",
+        "industry_code": "65624000",
+        "industry_name": "Social Assistance",
+        "depth": 4,
+        "current_val": 102.7,
+        "mom_chg": 1.3,
+        "yoy_chg": -0.6,
+        "yoy_pct": -0.58
+      },
+      {
+        "series_id": "SMU26000007000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 465.6,
+        "mom_chg": 3.9,
+        "yoy_chg": 4.9,
+        "yoy_pct": 1.06
+      },
+      {
+        "series_id": "SMU26000007071000001          ",
+        "industry_code": "70710000",
+        "industry_name": "Arts, Entertainment, and Recreation",
+        "depth": 3,
+        "current_val": 74.6,
+        "mom_chg": 0.8,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.81
+      },
+      {
+        "series_id": "SMU26000007072000001          ",
+        "industry_code": "70720000",
+        "industry_name": "Accommodation and Food Services",
+        "depth": 3,
+        "current_val": 391.0,
+        "mom_chg": 3.1,
+        "yoy_chg": 4.3,
+        "yoy_pct": 1.11
+      },
+      {
+        "series_id": "SMU26000007072100001          ",
+        "industry_code": "70721000",
+        "industry_name": "Accommodation",
+        "depth": 4,
+        "current_val": 45.8,
+        "mom_chg": 2.4,
+        "yoy_chg": -0.4,
+        "yoy_pct": -0.87
+      },
+      {
+        "series_id": "SMU26000007072200001          ",
+        "industry_code": "70722000",
+        "industry_name": "Food Services and Drinking Places",
+        "depth": 4,
+        "current_val": 345.2,
+        "mom_chg": 0.7,
+        "yoy_chg": 4.7,
+        "yoy_pct": 1.38
+      },
+      {
+        "series_id": "SMU26000007072250001          ",
+        "industry_code": "70722500",
+        "industry_name": "Restaurants and Other Eating Places",
+        "depth": 4,
+        "current_val": 307.0,
+        "mom_chg": 0.7,
+        "yoy_chg": 4.4,
+        "yoy_pct": 1.45
+      },
+      {
+        "series_id": "SMU26000007072251101          ",
+        "industry_code": "70722511",
+        "industry_name": "Full-Service Restaurants",
+        "depth": 5,
+        "current_val": 152.3,
+        "mom_chg": -0.1,
+        "yoy_chg": 2.8,
+        "yoy_pct": 1.87
+      },
+      {
+        "series_id": "SMU26000007072259001          ",
+        "industry_code": "70722590",
+        "industry_name": "Limited-Service Restaurants and Other Eating Places",
+        "depth": 5,
+        "current_val": 154.7,
+        "mom_chg": 0.8,
+        "yoy_chg": 1.6,
+        "yoy_pct": 1.05
+      },
+      {
+        "series_id": "SMU26000008000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 179.3,
+        "mom_chg": -1.2,
+        "yoy_chg": 1.1,
+        "yoy_pct": 0.62
+      },
+      {
+        "series_id": "SMU26000008081100001          ",
+        "industry_code": "80811000",
+        "industry_name": "Repair and Maintenance",
+        "depth": 4,
+        "current_val": 47.5,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.6,
+        "yoy_pct": 1.28
+      },
+      {
+        "series_id": "SMU26000008081200001          ",
+        "industry_code": "80812000",
+        "industry_name": "Personal and Laundry Services",
+        "depth": 4,
+        "current_val": 41.5,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.24
+      },
+      {
+        "series_id": "SMU26000008081300001          ",
+        "industry_code": "80813000",
+        "industry_name": "Religious, Grantmaking, Civic, Professional, and Similar Organizations",
+        "depth": 4,
+        "current_val": 90.3,
+        "mom_chg": -1.2,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.67
+      },
+      {
+        "series_id": "SMU26000009000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 602.0,
+        "mom_chg": -28.2,
+        "yoy_chg": 12.8,
+        "yoy_pct": 2.17
+      },
+      {
+        "series_id": "SMU26000009091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 54.4,
+        "mom_chg": 0.4,
+        "yoy_chg": -2.3,
+        "yoy_pct": -4.06
+      },
+      {
+        "series_id": "SMU26000009091912001          ",
+        "industry_code": "90919120",
+        "industry_name": "U.S. Postal Service",
+        "depth": 5,
+        "current_val": 19.9,
+        "mom_chg": 0.2,
+        "yoy_chg": -0.2,
+        "yoy_pct": -1.0
+      },
+      {
+        "series_id": "SMU26000009092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 178.9,
+        "mom_chg": -0.4,
+        "yoy_chg": 5.2,
+        "yoy_pct": 2.99
+      },
+      {
+        "series_id": "SMU26000009092161101          ",
+        "industry_code": "90921611",
+        "industry_name": "State Government Educational Services",
+        "depth": 5,
+        "current_val": 103.4,
+        "mom_chg": -0.7,
+        "yoy_chg": 4.1,
+        "yoy_pct": 4.13
+      },
+      {
+        "series_id": "SMU26000009092200001          ",
+        "industry_code": "90922000",
+        "industry_name": "State Government Excluding Education",
+        "depth": 4,
+        "current_val": 75.5,
+        "mom_chg": 0.3,
+        "yoy_chg": 1.1,
+        "yoy_pct": 1.48
+      },
+      {
+        "series_id": "SMU26000009092262201          ",
+        "industry_code": "90922622",
+        "industry_name": "State Government Hospitals",
+        "depth": 5,
+        "current_val": 22.8,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.4,
+        "yoy_pct": 1.79
+      },
+      {
+        "series_id": "SMU26000009093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 368.7,
+        "mom_chg": -28.2,
+        "yoy_chg": 9.9,
+        "yoy_pct": 2.76
+      },
+      {
+        "series_id": "SMU26000009093161101          ",
+        "industry_code": "90931611",
+        "industry_name": "Local Government Educational Services",
+        "depth": 5,
+        "current_val": 172.3,
+        "mom_chg": -28.6,
+        "yoy_chg": 4.6,
+        "yoy_pct": 2.74
+      },
+      {
+        "series_id": "SMU26000009093200001          ",
+        "industry_code": "90932000",
+        "industry_name": "Local Government excluding Educational Services",
+        "depth": 4,
+        "current_val": 196.4,
+        "mom_chg": 0.4,
+        "yoy_chg": 5.3,
+        "yoy_pct": 2.77
+      },
+      {
+        "series_id": "SMU26000009093262201          ",
+        "industry_code": "90932622",
+        "industry_name": "Local Government Hospitals",
+        "depth": 5,
+        "current_val": 11.5,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.1,
+        "yoy_pct": 0.88
+      }
+    ],
+    "11460": [
+      {
+        "series_id": "SMU26114600000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 230.8,
+        "mom_chg": -1.5,
+        "yoy_chg": 1.5,
+        "yoy_pct": 0.65
+      },
+      {
+        "series_id": "SMU26114600500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 145.1,
+        "mom_chg": -0.3,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.14
+      },
+      {
+        "series_id": "SMU26114600600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 16.7,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.6
+      },
+      {
+        "series_id": "SMU26114600700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 214.1,
+        "mom_chg": -1.6,
+        "yoy_chg": 1.6,
+        "yoy_pct": 0.75
+      },
+      {
+        "series_id": "SMU26114600800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 128.4,
+        "mom_chg": -0.4,
+        "yoy_chg": 0.3,
+        "yoy_pct": 0.23
+      },
+      {
+        "series_id": "SMU26114601500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 5.3,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26114603000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 11.4,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.87
+      },
+      {
+        "series_id": "SMU26114603100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 8.0,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.23
+      },
+      {
+        "series_id": "SMU26114603133600001          ",
+        "industry_code": "31336000",
+        "industry_name": "Transportation Equipment Manufacturing",
+        "depth": 4,
+        "current_val": 2.5,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.2,
+        "yoy_pct": -7.41
+      },
+      {
+        "series_id": "SMU26114604000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 28.4,
+        "mom_chg": 0.2,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.71
+      },
+      {
+        "series_id": "SMU26114604100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 7.2,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.37
+      },
+      {
+        "series_id": "SMU26114604200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 16.3,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.3,
+        "yoy_pct": 1.88
+      },
+      {
+        "series_id": "SMU26114604245500001          ",
+        "industry_code": "42455000",
+        "industry_name": "General Merchandise Retailers",
+        "depth": 4,
+        "current_val": 3.0,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26114604300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 4.9,
+        "mom_chg": 0.2,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26114605000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 5.7,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26114605500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 8.2,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26114606000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 26.0,
+        "mom_chg": -0.7,
+        "yoy_chg": -1.1,
+        "yoy_pct": -4.06
+      },
+      {
+        "series_id": "SMU26114606054000001          ",
+        "industry_code": "60540000",
+        "industry_name": "Professional, Scientific, and Technical Services",
+        "depth": 3,
+        "current_val": 18.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.6,
+        "yoy_pct": -3.21
+      },
+      {
+        "series_id": "SMU26114606056000001          ",
+        "industry_code": "60560000",
+        "industry_name": "Administrative and Support and Waste Management and Remediation Services",
+        "depth": 3,
+        "current_val": 6.1,
+        "mom_chg": -0.6,
+        "yoy_chg": -0.4,
+        "yoy_pct": -6.15
+      },
+      {
+        "series_id": "SMU26114606500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 35.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 1.0,
+        "yoy_pct": 2.93
+      },
+      {
+        "series_id": "SMU26114606562000001          ",
+        "industry_code": "65620000",
+        "industry_name": "Health Care and Social Assistance",
+        "depth": 3,
+        "current_val": 31.0,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.7,
+        "yoy_pct": 2.31
+      },
+      {
+        "series_id": "SMU26114607000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 17.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.2,
+        "yoy_pct": 1.15
+      },
+      {
+        "series_id": "SMU26114607072000001          ",
+        "industry_code": "70720000",
+        "industry_name": "Accommodation and Food Services",
+        "depth": 3,
+        "current_val": 14.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.6,
+        "yoy_pct": 4.44
+      },
+      {
+        "series_id": "SMU26114608000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 7.4,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26114609000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 85.7,
+        "mom_chg": -1.2,
+        "yoy_chg": 1.3,
+        "yoy_pct": 1.54
+      },
+      {
+        "series_id": "SMU26114609091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 4.7,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -2.08
+      },
+      {
+        "series_id": "SMU26114609092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 68.6,
+        "mom_chg": -0.1,
+        "yoy_chg": 1.2,
+        "yoy_pct": 1.78
+      },
+      {
+        "series_id": "SMU26114609093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 12.4,
+        "mom_chg": -1.1,
+        "yoy_chg": 0.2,
+        "yoy_pct": 1.64
+      }
+    ],
+    "12980": [
+      {
+        "series_id": "SMU26129800000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 58.5,
+        "mom_chg": -1.2,
+        "yoy_chg": 0.3,
+        "yoy_pct": 0.52
+      },
+      {
+        "series_id": "SMU26129800500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 48.0,
+        "mom_chg": -0.8,
+        "yoy_chg": 0.3,
+        "yoy_pct": 0.63
+      },
+      {
+        "series_id": "SMU26129800600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 12.5,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26129800700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 46.0,
+        "mom_chg": -1.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 0.66
+      },
+      {
+        "series_id": "SMU26129800800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 35.5,
+        "mom_chg": -0.7,
+        "yoy_chg": 0.3,
+        "yoy_pct": 0.85
+      },
+      {
+        "series_id": "SMU26129801500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 2.3,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26129803000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 10.2,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26129803100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 7.8,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26129803133600001          ",
+        "industry_code": "31336000",
+        "industry_name": "Transportation Equipment Manufacturing",
+        "depth": 4,
+        "current_val": 4.9,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26129803200000001          ",
+        "industry_code": "32000000",
+        "industry_name": "Non-Durable Goods",
+        "depth": 2,
+        "current_val": 2.4,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26129804000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 9.4,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26129804200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 5.9,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.2,
+        "yoy_pct": -3.28
+      },
+      {
+        "series_id": "SMU26129805500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 1.4,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26129806000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 6.1,
+        "mom_chg": -0.5,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26129806500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 10.4,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.2,
+        "yoy_pct": 1.96
+      },
+      {
+        "series_id": "SMU26129807000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 6.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 1.67
+      },
+      {
+        "series_id": "SMU26129808000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 1.9,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26129809000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 10.5,
+        "mom_chg": -0.4,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      }
+    ],
+    "13020": [
+      {
+        "series_id": "SMU26130200000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 35.8,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26130200500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 30.7,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26130200600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 6.6,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.2,
+        "yoy_pct": 3.12
+      },
+      {
+        "series_id": "SMU26130200700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 29.2,
+        "mom_chg": -0.3,
+        "yoy_chg": -0.2,
+        "yoy_pct": -0.68
+      },
+      {
+        "series_id": "SMU26130200800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 24.1,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.2,
+        "yoy_pct": -0.82
+      },
+      {
+        "series_id": "SMU26130201500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 1.8,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.1,
+        "yoy_pct": 5.88
+      },
+      {
+        "series_id": "SMU26130203000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 4.8,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 2.13
+      },
+      {
+        "series_id": "SMU26130204000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 7.0,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.41
+      },
+      {
+        "series_id": "SMU26130204200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 4.7,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26130205000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 0.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26130205500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 1.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26130206000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 3.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -3.13
+      },
+      {
+        "series_id": "SMU26130206500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 6.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26130207000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 4.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26130208000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 1.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26130209000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 5.1,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      }
+    ],
+    "19804": [
+      {
+        "series_id": "SMU26198040000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 770.0,
+        "mom_chg": -7.9,
+        "yoy_chg": -2.7,
+        "yoy_pct": -0.35
+      },
+      {
+        "series_id": "SMU26198040500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 682.4,
+        "mom_chg": -3.4,
+        "yoy_chg": -4.2,
+        "yoy_pct": -0.61
+      },
+      {
+        "series_id": "SMU26198040600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 113.1,
+        "mom_chg": -1.0,
+        "yoy_chg": -2.2,
+        "yoy_pct": -1.91
+      },
+      {
+        "series_id": "SMU26198040700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 656.9,
+        "mom_chg": -6.9,
+        "yoy_chg": -0.5,
+        "yoy_pct": -0.08
+      },
+      {
+        "series_id": "SMU26198040800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 569.3,
+        "mom_chg": -2.4,
+        "yoy_chg": -2.0,
+        "yoy_pct": -0.35
+      },
+      {
+        "series_id": "SMU26198041500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 27.4,
+        "mom_chg": 0.2,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.36
+      },
+      {
+        "series_id": "SMU26198043000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 85.7,
+        "mom_chg": -1.2,
+        "yoy_chg": -2.1,
+        "yoy_pct": -2.39
+      },
+      {
+        "series_id": "SMU26198043100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 70.6,
+        "mom_chg": -1.2,
+        "yoy_chg": -1.6,
+        "yoy_pct": -2.22
+      },
+      {
+        "series_id": "SMU26198043133600001          ",
+        "industry_code": "31336000",
+        "industry_name": "Transportation Equipment Manufacturing",
+        "depth": 4,
+        "current_val": 47.7,
+        "mom_chg": -1.2,
+        "yoy_chg": -1.0,
+        "yoy_pct": -2.05
+      },
+      {
+        "series_id": "SMU26198043133610001          ",
+        "industry_code": "31336100",
+        "industry_name": "Motor Vehicle Manufacturing",
+        "depth": 4,
+        "current_val": 23.9,
+        "mom_chg": -1.1,
+        "yoy_chg": -0.7,
+        "yoy_pct": -2.85
+      },
+      {
+        "series_id": "SMU26198043133630001          ",
+        "industry_code": "31336300",
+        "industry_name": "Motor Vehicle Parts Manufacturing",
+        "depth": 4,
+        "current_val": 21.6,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.4,
+        "yoy_pct": -1.82
+      },
+      {
+        "series_id": "SMU26198043200000001          ",
+        "industry_code": "32000000",
+        "industry_name": "Non-Durable Goods",
+        "depth": 2,
+        "current_val": 15.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.5,
+        "yoy_pct": -3.21
+      },
+      {
+        "series_id": "SMU26198044000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 152.6,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.07
+      },
+      {
+        "series_id": "SMU26198044100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 28.5,
+        "mom_chg": 0.2,
+        "yoy_chg": 1.2,
+        "yoy_pct": 4.4
+      },
+      {
+        "series_id": "SMU26198044200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 66.6,
+        "mom_chg": -0.5,
+        "yoy_chg": 0.4,
+        "yoy_pct": 0.6
+      },
+      {
+        "series_id": "SMU26198044245600001          ",
+        "industry_code": "42456000",
+        "industry_name": "Health and Personal Care Retailers",
+        "depth": 4,
+        "current_val": 5.9,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26198044300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 57.5,
+        "mom_chg": 0.4,
+        "yoy_chg": -1.7,
+        "yoy_pct": -2.87
+      },
+      {
+        "series_id": "SMU26198044348100001          ",
+        "industry_code": "43481000",
+        "industry_name": "Air Transportation",
+        "depth": 4,
+        "current_val": 10.6,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.8,
+        "yoy_pct": -7.02
+      },
+      {
+        "series_id": "SMU26198044349300001          ",
+        "industry_code": "43493000",
+        "industry_name": "Warehousing and Storage",
+        "depth": 4,
+        "current_val": 20.9,
+        "mom_chg": 0.3,
+        "yoy_chg": -0.4,
+        "yoy_pct": -1.88
+      },
+      {
+        "series_id": "SMU26198045000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 7.4,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.3,
+        "yoy_pct": -3.9
+      },
+      {
+        "series_id": "SMU26198045500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 39.7,
+        "mom_chg": -0.2,
+        "yoy_chg": -0.4,
+        "yoy_pct": -1.0
+      },
+      {
+        "series_id": "SMU26198045552000001          ",
+        "industry_code": "55520000",
+        "industry_name": "Finance and Insurance",
+        "depth": 3,
+        "current_val": 31.0,
+        "mom_chg": -0.3,
+        "yoy_chg": -1.1,
+        "yoy_pct": -3.43
+      },
+      {
+        "series_id": "SMU26198045552200001          ",
+        "industry_code": "55522000",
+        "industry_name": "Credit Intermediation and Related Activities including Monetary Authorities - Central Bank",
+        "depth": 4,
+        "current_val": 15.9,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.6,
+        "yoy_pct": -3.64
+      },
+      {
+        "series_id": "SMU26198046000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 123.6,
+        "mom_chg": -2.4,
+        "yoy_chg": -1.3,
+        "yoy_pct": -1.04
+      },
+      {
+        "series_id": "SMU26198046054000001          ",
+        "industry_code": "60540000",
+        "industry_name": "Professional, Scientific, and Technical Services",
+        "depth": 3,
+        "current_val": 59.6,
+        "mom_chg": -0.1,
+        "yoy_chg": -1.4,
+        "yoy_pct": -2.3
+      },
+      {
+        "series_id": "SMU26198046054170001          ",
+        "industry_code": "60541700",
+        "industry_name": "Scientific Research and Development Services",
+        "depth": 4,
+        "current_val": 11.5,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.86
+      },
+      {
+        "series_id": "SMU26198046055000001          ",
+        "industry_code": "60550000",
+        "industry_name": "Management of Companies and Enterprises",
+        "depth": 3,
+        "current_val": 20.3,
+        "mom_chg": 0.3,
+        "yoy_chg": -0.7,
+        "yoy_pct": -3.33
+      },
+      {
+        "series_id": "SMU26198046056000001          ",
+        "industry_code": "60560000",
+        "industry_name": "Administrative and Support and Waste Management and Remediation Services",
+        "depth": 3,
+        "current_val": 43.7,
+        "mom_chg": -2.6,
+        "yoy_chg": 0.8,
+        "yoy_pct": 1.86
+      },
+      {
+        "series_id": "SMU26198046056130001          ",
+        "industry_code": "60561300",
+        "industry_name": "Employment Services",
+        "depth": 4,
+        "current_val": 11.8,
+        "mom_chg": -2.4,
+        "yoy_chg": 0.6,
+        "yoy_pct": 5.36
+      },
+      {
+        "series_id": "SMU26198046500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 139.2,
+        "mom_chg": 0.4,
+        "yoy_chg": -0.9,
+        "yoy_pct": -0.64
+      },
+      {
+        "series_id": "SMU26198046561000001          ",
+        "industry_code": "65610000",
+        "industry_name": "Private Educational Services",
+        "depth": 3,
+        "current_val": 12.1,
+        "mom_chg": -0.8,
+        "yoy_chg": 0.2,
+        "yoy_pct": 1.68
+      },
+      {
+        "series_id": "SMU26198046561110001          ",
+        "industry_code": "65611100",
+        "industry_name": "Private Elementary and Secondary Schools",
+        "depth": 4,
+        "current_val": 5.9,
+        "mom_chg": -0.4,
+        "yoy_chg": 0.3,
+        "yoy_pct": 5.36
+      },
+      {
+        "series_id": "SMU26198046562000001          ",
+        "industry_code": "65620000",
+        "industry_name": "Health Care and Social Assistance",
+        "depth": 3,
+        "current_val": 127.1,
+        "mom_chg": 1.2,
+        "yoy_chg": -1.1,
+        "yoy_pct": -0.86
+      },
+      {
+        "series_id": "SMU26198046562100001          ",
+        "industry_code": "65621000",
+        "industry_name": "Ambulatory Health Care Services",
+        "depth": 4,
+        "current_val": 36.0,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 0.84
+      },
+      {
+        "series_id": "SMU26198046562200001          ",
+        "industry_code": "65622000",
+        "industry_name": "Hospitals",
+        "depth": 4,
+        "current_val": 55.7,
+        "mom_chg": 0.3,
+        "yoy_chg": 1.0,
+        "yoy_pct": 1.83
+      },
+      {
+        "series_id": "SMU26198046562300001          ",
+        "industry_code": "65623000",
+        "industry_name": "Nursing and Residential Care Facilities",
+        "depth": 4,
+        "current_val": 16.7,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.2,
+        "yoy_pct": 1.21
+      },
+      {
+        "series_id": "SMU26198046562400001          ",
+        "industry_code": "65624000",
+        "industry_name": "Social Assistance",
+        "depth": 4,
+        "current_val": 18.7,
+        "mom_chg": 0.7,
+        "yoy_chg": -2.6,
+        "yoy_pct": -12.21
+      },
+      {
+        "series_id": "SMU26198047000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 77.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 1.0,
+        "yoy_pct": 1.31
+      },
+      {
+        "series_id": "SMU26198047071000001          ",
+        "industry_code": "70710000",
+        "industry_name": "Arts, Entertainment, and Recreation",
+        "depth": 3,
+        "current_val": 12.5,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26198047072000001          ",
+        "industry_code": "70720000",
+        "industry_name": "Accommodation and Food Services",
+        "depth": 3,
+        "current_val": 64.6,
+        "mom_chg": 0.1,
+        "yoy_chg": 1.0,
+        "yoy_pct": 1.57
+      },
+      {
+        "series_id": "SMU26198047072112001          ",
+        "industry_code": "70721120",
+        "industry_name": "Casino Hotels",
+        "depth": 5,
+        "current_val": 5.0,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.4,
+        "yoy_pct": 8.7
+      },
+      {
+        "series_id": "SMU26198047072250001          ",
+        "industry_code": "70722500",
+        "industry_name": "Restaurants and Other Eating Places",
+        "depth": 4,
+        "current_val": 48.1,
+        "mom_chg": 0.1,
+        "yoy_chg": 1.2,
+        "yoy_pct": 2.56
+      },
+      {
+        "series_id": "SMU26198047072251101          ",
+        "industry_code": "70722511",
+        "industry_name": "Full-Service Restaurants",
+        "depth": 5,
+        "current_val": 22.0,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.7,
+        "yoy_pct": 3.29
+      },
+      {
+        "series_id": "SMU26198047072259001          ",
+        "industry_code": "70722590",
+        "industry_name": "Limited-Service Restaurants and Other Eating Places",
+        "depth": 5,
+        "current_val": 26.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.5,
+        "yoy_pct": 1.95
+      },
+      {
+        "series_id": "SMU26198048000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 29.7,
+        "mom_chg": -0.3,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26198049000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 87.6,
+        "mom_chg": -4.5,
+        "yoy_chg": 1.5,
+        "yoy_pct": 1.74
+      },
+      {
+        "series_id": "SMU26198049091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 16.6,
+        "mom_chg": 0.2,
+        "yoy_chg": -0.5,
+        "yoy_pct": -2.92
+      },
+      {
+        "series_id": "SMU26198049091912001          ",
+        "industry_code": "90919120",
+        "industry_name": "U.S. Postal Service",
+        "depth": 5,
+        "current_val": 4.7,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26198049092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 14.9,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.2,
+        "yoy_pct": 1.36
+      },
+      {
+        "series_id": "SMU26198049092161101          ",
+        "industry_code": "90921611",
+        "industry_name": "State Government Educational Services",
+        "depth": 5,
+        "current_val": 8.8,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.2,
+        "yoy_pct": 2.33
+      },
+      {
+        "series_id": "SMU26198049093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 56.1,
+        "mom_chg": -4.8,
+        "yoy_chg": 1.8,
+        "yoy_pct": 3.31
+      },
+      {
+        "series_id": "SMU26198049093161101          ",
+        "industry_code": "90931611",
+        "industry_name": "Local Government Educational Services",
+        "depth": 5,
+        "current_val": 25.0,
+        "mom_chg": -4.3,
+        "yoy_chg": 0.8,
+        "yoy_pct": 3.31
+      }
+    ],
+    "19820": [
+      {
+        "series_id": "SMU26198200000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 2040.7,
+        "mom_chg": -25.4,
+        "yoy_chg": 3.2,
+        "yoy_pct": 0.16
+      },
+      {
+        "series_id": "SMU26198200500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 1855.9,
+        "mom_chg": -12.5,
+        "yoy_chg": 1.2,
+        "yoy_pct": 0.06
+      },
+      {
+        "series_id": "SMU26198200600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 328.9,
+        "mom_chg": -1.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 0.09
+      },
+      {
+        "series_id": "SMU26198200700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 1711.8,
+        "mom_chg": -24.3,
+        "yoy_chg": 2.9,
+        "yoy_pct": 0.17
+      },
+      {
+        "series_id": "SMU26198200800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 1527.0,
+        "mom_chg": -11.4,
+        "yoy_chg": 0.9,
+        "yoy_pct": 0.06
+      },
+      {
+        "series_id": "SMU26198201500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 94.4,
+        "mom_chg": 1.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 0.11
+      },
+      {
+        "series_id": "SMU26198203000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 234.5,
+        "mom_chg": -2.1,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.09
+      },
+      {
+        "series_id": "SMU26198203100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 192.9,
+        "mom_chg": -1.9,
+        "yoy_chg": 1.2,
+        "yoy_pct": 0.63
+      },
+      {
+        "series_id": "SMU26198203133600001          ",
+        "industry_code": "31336000",
+        "industry_name": "Transportation Equipment Manufacturing",
+        "depth": 4,
+        "current_val": 105.1,
+        "mom_chg": -1.8,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.57
+      },
+      {
+        "series_id": "SMU26198203133610001          ",
+        "industry_code": "31336100",
+        "industry_name": "Motor Vehicle Manufacturing",
+        "depth": 4,
+        "current_val": 33.7,
+        "mom_chg": -1.3,
+        "yoy_chg": 0.1,
+        "yoy_pct": 0.3
+      },
+      {
+        "series_id": "SMU26198203133630001          ",
+        "industry_code": "31336300",
+        "industry_name": "Motor Vehicle Parts Manufacturing",
+        "depth": 4,
+        "current_val": 65.3,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.93
+      },
+      {
+        "series_id": "SMU26198203200000001          ",
+        "industry_code": "32000000",
+        "industry_name": "Non-Durable Goods",
+        "depth": 2,
+        "current_val": 41.6,
+        "mom_chg": -0.2,
+        "yoy_chg": -1.0,
+        "yoy_pct": -2.35
+      },
+      {
+        "series_id": "SMU26198204000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 374.5,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.8,
+        "yoy_pct": -0.21
+      },
+      {
+        "series_id": "SMU26198204100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 85.0,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.71
+      },
+      {
+        "series_id": "SMU26198204200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 197.1,
+        "mom_chg": -0.6,
+        "yoy_chg": 1.0,
+        "yoy_pct": 0.51
+      },
+      {
+        "series_id": "SMU26198204245600001          ",
+        "industry_code": "42456000",
+        "industry_name": "Health and Personal Care Retailers",
+        "depth": 4,
+        "current_val": 16.7,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.3,
+        "yoy_pct": -1.76
+      },
+      {
+        "series_id": "SMU26198204300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 92.4,
+        "mom_chg": 0.4,
+        "yoy_chg": -2.4,
+        "yoy_pct": -2.53
+      },
+      {
+        "series_id": "SMU26198205000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 27.8,
+        "mom_chg": 0.0,
+        "yoy_chg": -1.3,
+        "yoy_pct": -4.47
+      },
+      {
+        "series_id": "SMU26198205500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 132.6,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.45
+      },
+      {
+        "series_id": "SMU26198205552000001          ",
+        "industry_code": "55520000",
+        "industry_name": "Finance and Insurance",
+        "depth": 3,
+        "current_val": 97.4,
+        "mom_chg": -0.7,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.1
+      },
+      {
+        "series_id": "SMU26198205552200001          ",
+        "industry_code": "55522000",
+        "industry_name": "Credit Intermediation and Related Activities including Monetary Authorities - Central Bank",
+        "depth": 4,
+        "current_val": 46.5,
+        "mom_chg": -0.3,
+        "yoy_chg": -0.4,
+        "yoy_pct": -0.85
+      },
+      {
+        "series_id": "SMU26198206000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 369.3,
+        "mom_chg": -8.5,
+        "yoy_chg": -0.7,
+        "yoy_pct": -0.19
+      },
+      {
+        "series_id": "SMU26198206054000001          ",
+        "industry_code": "60540000",
+        "industry_name": "Professional, Scientific, and Technical Services",
+        "depth": 3,
+        "current_val": 202.2,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.9,
+        "yoy_pct": 0.45
+      },
+      {
+        "series_id": "SMU26198206055000001          ",
+        "industry_code": "60550000",
+        "industry_name": "Management of Companies and Enterprises",
+        "depth": 3,
+        "current_val": 45.4,
+        "mom_chg": 0.0,
+        "yoy_chg": -1.2,
+        "yoy_pct": -2.58
+      },
+      {
+        "series_id": "SMU26198206056000001          ",
+        "industry_code": "60560000",
+        "industry_name": "Administrative and Support and Waste Management and Remediation Services",
+        "depth": 3,
+        "current_val": 121.7,
+        "mom_chg": -8.6,
+        "yoy_chg": -0.4,
+        "yoy_pct": -0.33
+      },
+      {
+        "series_id": "SMU26198206056130001          ",
+        "industry_code": "60561300",
+        "industry_name": "Employment Services",
+        "depth": 4,
+        "current_val": 38.4,
+        "mom_chg": -7.0,
+        "yoy_chg": 1.7,
+        "yoy_pct": 4.63
+      },
+      {
+        "series_id": "SMU26198206500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 341.7,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.18
+      },
+      {
+        "series_id": "SMU26198206562000001          ",
+        "industry_code": "65620000",
+        "industry_name": "Health Care and Social Assistance",
+        "depth": 3,
+        "current_val": 314.6,
+        "mom_chg": 1.6,
+        "yoy_chg": 2.3,
+        "yoy_pct": 0.74
+      },
+      {
+        "series_id": "SMU26198206562100001          ",
+        "industry_code": "65621000",
+        "industry_name": "Ambulatory Health Care Services",
+        "depth": 4,
+        "current_val": 119.0,
+        "mom_chg": 0.2,
+        "yoy_chg": 2.5,
+        "yoy_pct": 2.15
+      },
+      {
+        "series_id": "SMU26198206562200001          ",
+        "industry_code": "65622000",
+        "industry_name": "Hospitals",
+        "depth": 4,
+        "current_val": 102.4,
+        "mom_chg": 0.5,
+        "yoy_chg": 1.5,
+        "yoy_pct": 1.49
+      },
+      {
+        "series_id": "SMU26198206562300001          ",
+        "industry_code": "65623000",
+        "industry_name": "Nursing and Residential Care Facilities",
+        "depth": 4,
+        "current_val": 47.9,
+        "mom_chg": 0.2,
+        "yoy_chg": 0.7,
+        "yoy_pct": 1.48
+      },
+      {
+        "series_id": "SMU26198206562400001          ",
+        "industry_code": "65624000",
+        "industry_name": "Social Assistance",
+        "depth": 4,
+        "current_val": 45.3,
+        "mom_chg": 0.7,
+        "yoy_chg": -2.4,
+        "yoy_pct": -5.03
+      },
+      {
+        "series_id": "SMU26198207000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 203.7,
+        "mom_chg": -0.8,
+        "yoy_chg": 3.2,
+        "yoy_pct": 1.6
+      },
+      {
+        "series_id": "SMU26198207071000001          ",
+        "industry_code": "70710000",
+        "industry_name": "Arts, Entertainment, and Recreation",
+        "depth": 3,
+        "current_val": 34.2,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.6,
+        "yoy_pct": 1.79
+      },
+      {
+        "series_id": "SMU26198207072000001          ",
+        "industry_code": "70720000",
+        "industry_name": "Accommodation and Food Services",
+        "depth": 3,
+        "current_val": 169.5,
+        "mom_chg": -0.8,
+        "yoy_chg": 2.6,
+        "yoy_pct": 1.56
+      },
+      {
+        "series_id": "SMU26198207072250001          ",
+        "industry_code": "70722500",
+        "industry_name": "Restaurants and Other Eating Places",
+        "depth": 4,
+        "current_val": 135.0,
+        "mom_chg": -0.5,
+        "yoy_chg": 2.7,
+        "yoy_pct": 2.04
+      },
+      {
+        "series_id": "SMU26198207072251101          ",
+        "industry_code": "70722511",
+        "industry_name": "Full-Service Restaurants",
+        "depth": 5,
+        "current_val": 66.8,
+        "mom_chg": -0.2,
+        "yoy_chg": 2.5,
+        "yoy_pct": 3.89
+      },
+      {
+        "series_id": "SMU26198207072259001          ",
+        "industry_code": "70722590",
+        "industry_name": "Limited-Service Restaurants and Other Eating Places",
+        "depth": 5,
+        "current_val": 68.2,
+        "mom_chg": -0.3,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.29
+      },
+      {
+        "series_id": "SMU26198208000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 77.4,
+        "mom_chg": -0.8,
+        "yoy_chg": -0.7,
+        "yoy_pct": -0.9
+      },
+      {
+        "series_id": "SMU26198209000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 184.8,
+        "mom_chg": -12.9,
+        "yoy_chg": 2.0,
+        "yoy_pct": 1.09
+      },
+      {
+        "series_id": "SMU26198209091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 29.0,
+        "mom_chg": 0.3,
+        "yoy_chg": -2.2,
+        "yoy_pct": -7.05
+      },
+      {
+        "series_id": "SMU26198209091912001          ",
+        "industry_code": "90919120",
+        "industry_name": "U.S. Postal Service",
+        "depth": 5,
+        "current_val": 10.1,
+        "mom_chg": 0.2,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.98
+      },
+      {
+        "series_id": "SMU26198209092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 22.5,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 1.35
+      },
+      {
+        "series_id": "SMU26198209092161101          ",
+        "industry_code": "90921611",
+        "industry_name": "State Government Educational Services",
+        "depth": 5,
+        "current_val": 12.0,
+        "mom_chg": 0.2,
+        "yoy_chg": 0.3,
+        "yoy_pct": 2.56
+      },
+      {
+        "series_id": "SMU26198209093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 133.3,
+        "mom_chg": -13.3,
+        "yoy_chg": 3.9,
+        "yoy_pct": 3.01
+      },
+      {
+        "series_id": "SMU26198209093161101          ",
+        "industry_code": "90931611",
+        "industry_name": "Local Government Educational Services",
+        "depth": 5,
+        "current_val": 65.0,
+        "mom_chg": -12.4,
+        "yoy_chg": 1.3,
+        "yoy_pct": 2.04
+      }
+    ],
+    "22420": [
+      {
+        "series_id": "SMU26224200000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 145.5,
+        "mom_chg": -0.7,
+        "yoy_chg": 2.1,
+        "yoy_pct": 1.46
+      },
+      {
+        "series_id": "SMU26224200500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 126.7,
+        "mom_chg": -0.1,
+        "yoy_chg": 1.7,
+        "yoy_pct": 1.36
+      },
+      {
+        "series_id": "SMU26224200600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 21.3,
+        "mom_chg": 0.2,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.47
+      },
+      {
+        "series_id": "SMU26224200700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 124.2,
+        "mom_chg": -0.9,
+        "yoy_chg": 2.2,
+        "yoy_pct": 1.8
+      },
+      {
+        "series_id": "SMU26224200800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 105.4,
+        "mom_chg": -0.3,
+        "yoy_chg": 1.8,
+        "yoy_pct": 1.74
+      },
+      {
+        "series_id": "SMU26224201500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 7.5,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.32
+      },
+      {
+        "series_id": "SMU26224203000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 13.8,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26224203100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 10.2,
+        "mom_chg": 0.2,
+        "yoy_chg": 0.2,
+        "yoy_pct": 2.0
+      },
+      {
+        "series_id": "SMU26224203133600001          ",
+        "industry_code": "31336000",
+        "industry_name": "Transportation Equipment Manufacturing",
+        "depth": 4,
+        "current_val": 6.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.3,
+        "yoy_pct": 4.76
+      },
+      {
+        "series_id": "SMU26224203133630001          ",
+        "industry_code": "31336300",
+        "industry_name": "Motor Vehicle Parts Manufacturing",
+        "depth": 4,
+        "current_val": 1.7,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 6.25
+      },
+      {
+        "series_id": "SMU26224204000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 31.2,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.6,
+        "yoy_pct": 1.96
+      },
+      {
+        "series_id": "SMU26224204100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 7.6,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.3
+      },
+      {
+        "series_id": "SMU26224204200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 20.5,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.7,
+        "yoy_pct": 3.54
+      },
+      {
+        "series_id": "SMU26224204245500001          ",
+        "industry_code": "42455000",
+        "industry_name": "General Merchandise Retailers",
+        "depth": 4,
+        "current_val": 5.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 2.0
+      },
+      {
+        "series_id": "SMU26224204300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 3.1,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26224205000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 1.0,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26224205500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 6.5,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 1.56
+      },
+      {
+        "series_id": "SMU26224206000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 16.9,
+        "mom_chg": -0.3,
+        "yoy_chg": 0.8,
+        "yoy_pct": 4.97
+      },
+      {
+        "series_id": "SMU26224206500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 28.5,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.4,
+        "yoy_pct": 1.42
+      },
+      {
+        "series_id": "SMU26224206561000001          ",
+        "industry_code": "65610000",
+        "industry_name": "Private Educational Services",
+        "depth": 3,
+        "current_val": 2.9,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.1,
+        "yoy_pct": 3.57
+      },
+      {
+        "series_id": "SMU26224206562000001          ",
+        "industry_code": "65620000",
+        "industry_name": "Health Care and Social Assistance",
+        "depth": 3,
+        "current_val": 25.6,
+        "mom_chg": 0.2,
+        "yoy_chg": 0.3,
+        "yoy_pct": 1.19
+      },
+      {
+        "series_id": "SMU26224207000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 16.0,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.62
+      },
+      {
+        "series_id": "SMU26224208000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 5.3,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26224209000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 18.8,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.4,
+        "yoy_pct": 2.17
+      },
+      {
+        "series_id": "SMU26224209091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 1.0,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -9.09
+      },
+      {
+        "series_id": "SMU26224209092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 2.2,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26224209093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 15.6,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.5,
+        "yoy_pct": 3.31
+      }
+    ],
+    "24340": [
+      {
+        "series_id": "SMU26243400000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 600.2,
+        "mom_chg": -7.9,
+        "yoy_chg": 2.8,
+        "yoy_pct": 0.47
+      },
+      {
+        "series_id": "SMU26243400500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 549.1,
+        "mom_chg": -4.1,
+        "yoy_chg": 1.3,
+        "yoy_pct": 0.24
+      },
+      {
+        "series_id": "SMU26243400600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 144.1,
+        "mom_chg": 0.2,
+        "yoy_chg": -1.2,
+        "yoy_pct": -0.83
+      },
+      {
+        "series_id": "SMU26243400700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 456.1,
+        "mom_chg": -8.1,
+        "yoy_chg": 4.0,
+        "yoy_pct": 0.88
+      },
+      {
+        "series_id": "SMU26243400800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 405.0,
+        "mom_chg": -4.3,
+        "yoy_chg": 2.5,
+        "yoy_pct": 0.62
+      },
+      {
+        "series_id": "SMU26243401500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 32.7,
+        "mom_chg": 0.4,
+        "yoy_chg": -0.6,
+        "yoy_pct": -1.8
+      },
+      {
+        "series_id": "SMU26243403000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 111.4,
+        "mom_chg": -0.2,
+        "yoy_chg": -0.6,
+        "yoy_pct": -0.54
+      },
+      {
+        "series_id": "SMU26243403100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 76.7,
+        "mom_chg": -0.3,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.13
+      },
+      {
+        "series_id": "SMU26243403133600001          ",
+        "industry_code": "31336000",
+        "industry_name": "Transportation Equipment Manufacturing",
+        "depth": 4,
+        "current_val": 15.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26243403133700001          ",
+        "industry_code": "31337000",
+        "industry_name": "Furniture and Related Product Manufacturing",
+        "depth": 4,
+        "current_val": 11.0,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26243403200000001          ",
+        "industry_code": "32000000",
+        "industry_name": "Non-Durable Goods",
+        "depth": 2,
+        "current_val": 34.7,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.5,
+        "yoy_pct": -1.42
+      },
+      {
+        "series_id": "SMU26243404000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 106.4,
+        "mom_chg": 0.2,
+        "yoy_chg": -0.7,
+        "yoy_pct": -0.65
+      },
+      {
+        "series_id": "SMU26243404100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 33.9,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.3,
+        "yoy_pct": -0.88
+      },
+      {
+        "series_id": "SMU26243404200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 53.4,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.19
+      },
+      {
+        "series_id": "SMU26243404245500001          ",
+        "industry_code": "42455000",
+        "industry_name": "General Merchandise Retailers",
+        "depth": 4,
+        "current_val": 13.8,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.1,
+        "yoy_pct": 0.73
+      },
+      {
+        "series_id": "SMU26243404300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 19.1,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.3,
+        "yoy_pct": -1.55
+      },
+      {
+        "series_id": "SMU26243405000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 6.2,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.4,
+        "yoy_pct": -6.06
+      },
+      {
+        "series_id": "SMU26243405500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 30.9,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.6,
+        "yoy_pct": 1.98
+      },
+      {
+        "series_id": "SMU26243405552000001          ",
+        "industry_code": "55520000",
+        "industry_name": "Finance and Insurance",
+        "depth": 3,
+        "current_val": 24.3,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.4,
+        "yoy_pct": 1.67
+      },
+      {
+        "series_id": "SMU26243406000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 73.8,
+        "mom_chg": -3.9,
+        "yoy_chg": 0.7,
+        "yoy_pct": 0.96
+      },
+      {
+        "series_id": "SMU26243406054000001          ",
+        "industry_code": "60540000",
+        "industry_name": "Professional, Scientific, and Technical Services",
+        "depth": 3,
+        "current_val": 28.3,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.8,
+        "yoy_pct": -2.75
+      },
+      {
+        "series_id": "SMU26243406055000001          ",
+        "industry_code": "60550000",
+        "industry_name": "Management of Companies and Enterprises",
+        "depth": 3,
+        "current_val": 5.7,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.3,
+        "yoy_pct": -5.0
+      },
+      {
+        "series_id": "SMU26243406056000001          ",
+        "industry_code": "60560000",
+        "industry_name": "Administrative and Support and Waste Management and Remediation Services",
+        "depth": 3,
+        "current_val": 39.8,
+        "mom_chg": -3.8,
+        "yoy_chg": 1.8,
+        "yoy_pct": 4.74
+      },
+      {
+        "series_id": "SMU26243406056130001          ",
+        "industry_code": "60561300",
+        "industry_name": "Employment Services",
+        "depth": 4,
+        "current_val": 18.2,
+        "mom_chg": -4.1,
+        "yoy_chg": 2.3,
+        "yoy_pct": 14.47
+      },
+      {
+        "series_id": "SMU26243406500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 104.1,
+        "mom_chg": -0.4,
+        "yoy_chg": 2.9,
+        "yoy_pct": 2.87
+      },
+      {
+        "series_id": "SMU26243406561000001          ",
+        "industry_code": "65610000",
+        "industry_name": "Private Educational Services",
+        "depth": 3,
+        "current_val": 15.7,
+        "mom_chg": -0.8,
+        "yoy_chg": 0.6,
+        "yoy_pct": 3.97
+      },
+      {
+        "series_id": "SMU26243406562000001          ",
+        "industry_code": "65620000",
+        "industry_name": "Health Care and Social Assistance",
+        "depth": 3,
+        "current_val": 88.4,
+        "mom_chg": 0.4,
+        "yoy_chg": 2.3,
+        "yoy_pct": 2.67
+      },
+      {
+        "series_id": "SMU26243406562100001          ",
+        "industry_code": "65621000",
+        "industry_name": "Ambulatory Health Care Services",
+        "depth": 4,
+        "current_val": 24.1,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.4,
+        "yoy_pct": 1.69
+      },
+      {
+        "series_id": "SMU26243406562200001          ",
+        "industry_code": "65622000",
+        "industry_name": "Hospitals",
+        "depth": 4,
+        "current_val": 37.9,
+        "mom_chg": 0.1,
+        "yoy_chg": 1.0,
+        "yoy_pct": 2.71
+      },
+      {
+        "series_id": "SMU26243406562300001          ",
+        "industry_code": "65623000",
+        "industry_name": "Nursing and Residential Care Facilities",
+        "depth": 4,
+        "current_val": 14.7,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.4,
+        "yoy_pct": 2.8
+      },
+      {
+        "series_id": "SMU26243407000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 58.0,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.5,
+        "yoy_pct": -0.85
+      },
+      {
+        "series_id": "SMU26243407072000001          ",
+        "industry_code": "70720000",
+        "industry_name": "Accommodation and Food Services",
+        "depth": 3,
+        "current_val": 49.0,
+        "mom_chg": -0.2,
+        "yoy_chg": -0.4,
+        "yoy_pct": -0.81
+      },
+      {
+        "series_id": "SMU26243407072200001          ",
+        "industry_code": "70722000",
+        "industry_name": "Food Services and Drinking Places",
+        "depth": 4,
+        "current_val": 43.3,
+        "mom_chg": -0.3,
+        "yoy_chg": -0.4,
+        "yoy_pct": -0.92
+      },
+      {
+        "series_id": "SMU26243408000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 25.6,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.39
+      },
+      {
+        "series_id": "SMU26243409000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 51.1,
+        "mom_chg": -3.8,
+        "yoy_chg": 1.5,
+        "yoy_pct": 3.02
+      },
+      {
+        "series_id": "SMU26243409091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 3.7,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -2.63
+      },
+      {
+        "series_id": "SMU26243409092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 7.8,
+        "mom_chg": -0.3,
+        "yoy_chg": 0.2,
+        "yoy_pct": 2.63
+      },
+      {
+        "series_id": "SMU26243409093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 39.6,
+        "mom_chg": -3.6,
+        "yoy_chg": 1.4,
+        "yoy_pct": 3.66
+      },
+      {
+        "series_id": "SMU26243409093161101          ",
+        "industry_code": "90931611",
+        "industry_name": "Local Government Educational Services",
+        "depth": 5,
+        "current_val": 20.7,
+        "mom_chg": -4.0,
+        "yoy_chg": 0.6,
+        "yoy_pct": 2.99
+      }
+    ],
+    "27100": [
+      {
+        "series_id": "SMU26271000000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 58.0,
+        "mom_chg": -1.8,
+        "yoy_chg": 0.7,
+        "yoy_pct": 1.22
+      },
+      {
+        "series_id": "SMU26271000500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 50.1,
+        "mom_chg": -1.2,
+        "yoy_chg": 0.5,
+        "yoy_pct": 1.01
+      },
+      {
+        "series_id": "SMU26271000600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 12.0,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26271000700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 46.0,
+        "mom_chg": -1.8,
+        "yoy_chg": 0.7,
+        "yoy_pct": 1.55
+      },
+      {
+        "series_id": "SMU26271000800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 38.1,
+        "mom_chg": -1.2,
+        "yoy_chg": 0.5,
+        "yoy_pct": 1.33
+      },
+      {
+        "series_id": "SMU26271001500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 2.8,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26271003000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 9.2,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26271004000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 11.5,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26271004200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 6.5,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26271005000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 0.2,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26271005500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 2.4,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26271006000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 5.4,
+        "mom_chg": -1.2,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.82
+      },
+      {
+        "series_id": "SMU26271006500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 10.4,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.5,
+        "yoy_pct": 5.05
+      },
+      {
+        "series_id": "SMU26271007000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 5.7,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.1,
+        "yoy_pct": 1.79
+      },
+      {
+        "series_id": "SMU26271008000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 2.5,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26271009000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 7.9,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.2,
+        "yoy_pct": 2.6
+      }
+    ],
+    "28020": [
+      {
+        "series_id": "SMU26280200000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 129.5,
+        "mom_chg": -3.2,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.15
+      },
+      {
+        "series_id": "SMU26280200500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 115.2,
+        "mom_chg": -1.9,
+        "yoy_chg": -0.4,
+        "yoy_pct": -0.35
+      },
+      {
+        "series_id": "SMU26280200600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 28.5,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.71
+      },
+      {
+        "series_id": "SMU26280200700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 101.0,
+        "mom_chg": -3.2,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26280200800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 86.7,
+        "mom_chg": -1.9,
+        "yoy_chg": -0.6,
+        "yoy_pct": -0.69
+      },
+      {
+        "series_id": "SMU26280201500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 7.0,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 4.48
+      },
+      {
+        "series_id": "SMU26280203000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 21.5,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.46
+      },
+      {
+        "series_id": "SMU26280203100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 13.4,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 0.75
+      },
+      {
+        "series_id": "SMU26280203200000001          ",
+        "industry_code": "32000000",
+        "industry_name": "Non-Durable Goods",
+        "depth": 2,
+        "current_val": 8.1,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.2,
+        "yoy_pct": -2.41
+      },
+      {
+        "series_id": "SMU26280204000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 22.1,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.5,
+        "yoy_pct": -2.21
+      },
+      {
+        "series_id": "SMU26280204100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 5.6,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.75
+      },
+      {
+        "series_id": "SMU26280204200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 12.4,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.3,
+        "yoy_pct": -2.36
+      },
+      {
+        "series_id": "SMU26280204300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 4.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -2.38
+      },
+      {
+        "series_id": "SMU26280205000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 0.8,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26280205500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 5.9,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26280206000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 13.8,
+        "mom_chg": -1.8,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26280206500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 25.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.79
+      },
+      {
+        "series_id": "SMU26280206561000001          ",
+        "industry_code": "65610000",
+        "industry_name": "Private Educational Services",
+        "depth": 3,
+        "current_val": 3.0,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.3,
+        "yoy_pct": -9.09
+      },
+      {
+        "series_id": "SMU26280206562000001          ",
+        "industry_code": "65620000",
+        "industry_name": "Health Care and Social Assistance",
+        "depth": 3,
+        "current_val": 22.6,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.5,
+        "yoy_pct": 2.26
+      },
+      {
+        "series_id": "SMU26280207000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 13.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.3,
+        "yoy_pct": -2.24
+      },
+      {
+        "series_id": "SMU26280207072000001          ",
+        "industry_code": "70720000",
+        "industry_name": "Accommodation and Food Services",
+        "depth": 3,
+        "current_val": 11.0,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.9
+      },
+      {
+        "series_id": "SMU26280208000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 5.4,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26280209000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 14.3,
+        "mom_chg": -1.3,
+        "yoy_chg": 0.6,
+        "yoy_pct": 4.38
+      },
+      {
+        "series_id": "SMU26280209091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 0.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26280209092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 5.4,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.5,
+        "yoy_pct": 10.2
+      },
+      {
+        "series_id": "SMU26280209093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 8.3,
+        "mom_chg": -1.1,
+        "yoy_chg": 0.1,
+        "yoy_pct": 1.22
+      }
+    ],
+    "29620": [
+      {
+        "series_id": "SMU26296200000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 235.0,
+        "mom_chg": -4.9,
+        "yoy_chg": -0.4,
+        "yoy_pct": -0.17
+      },
+      {
+        "series_id": "SMU26296200500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 178.6,
+        "mom_chg": -2.8,
+        "yoy_chg": 3.7,
+        "yoy_pct": 2.12
+      },
+      {
+        "series_id": "SMU26296200600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 30.9,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.7,
+        "yoy_pct": 2.32
+      },
+      {
+        "series_id": "SMU26296200700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 204.1,
+        "mom_chg": -4.8,
+        "yoy_chg": -1.1,
+        "yoy_pct": -0.54
+      },
+      {
+        "series_id": "SMU26296200800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 147.7,
+        "mom_chg": -2.7,
+        "yoy_chg": 3.0,
+        "yoy_pct": 2.07
+      },
+      {
+        "series_id": "SMU26296201500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 10.9,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.91
+      },
+      {
+        "series_id": "SMU26296203000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 20.0,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.8,
+        "yoy_pct": 4.17
+      },
+      {
+        "series_id": "SMU26296203100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 15.3,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.9,
+        "yoy_pct": 6.25
+      },
+      {
+        "series_id": "SMU26296203133600001          ",
+        "industry_code": "31336000",
+        "industry_name": "Transportation Equipment Manufacturing",
+        "depth": 4,
+        "current_val": 9.6,
+        "mom_chg": -0.1,
+        "yoy_chg": 1.0,
+        "yoy_pct": 11.63
+      },
+      {
+        "series_id": "SMU26296203200000001          ",
+        "industry_code": "32000000",
+        "industry_name": "Non-Durable Goods",
+        "depth": 2,
+        "current_val": 4.7,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -2.08
+      },
+      {
+        "series_id": "SMU26296204000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 37.4,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.8,
+        "yoy_pct": 2.19
+      },
+      {
+        "series_id": "SMU26296204100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 5.7,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.2,
+        "yoy_pct": -3.39
+      },
+      {
+        "series_id": "SMU26296204200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 20.5,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26296204245500001          ",
+        "industry_code": "42455000",
+        "industry_name": "General Merchandise Retailers",
+        "depth": 4,
+        "current_val": 5.7,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26296204300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 11.2,
+        "mom_chg": -0.1,
+        "yoy_chg": 1.0,
+        "yoy_pct": 9.8
+      },
+      {
+        "series_id": "SMU26296205000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 3.3,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -2.94
+      },
+      {
+        "series_id": "SMU26296205500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 19.1,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 1.6
+      },
+      {
+        "series_id": "SMU26296206000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 22.9,
+        "mom_chg": -2.4,
+        "yoy_chg": 0.8,
+        "yoy_pct": 3.62
+      },
+      {
+        "series_id": "SMU26296206054000001          ",
+        "industry_code": "60540000",
+        "industry_name": "Professional, Scientific, and Technical Services",
+        "depth": 3,
+        "current_val": 11.0,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 2.8
+      },
+      {
+        "series_id": "SMU26296206056000001          ",
+        "industry_code": "60560000",
+        "industry_name": "Administrative and Support and Waste Management and Remediation Services",
+        "depth": 3,
+        "current_val": 8.5,
+        "mom_chg": -2.6,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.16
+      },
+      {
+        "series_id": "SMU26296206500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 35.4,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.9,
+        "yoy_pct": 2.61
+      },
+      {
+        "series_id": "SMU26296206562000001          ",
+        "industry_code": "65620000",
+        "industry_name": "Health Care and Social Assistance",
+        "depth": 3,
+        "current_val": 31.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.7,
+        "yoy_pct": 2.3
+      },
+      {
+        "series_id": "SMU26296207000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 18.9,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.5,
+        "yoy_pct": 2.72
+      },
+      {
+        "series_id": "SMU26296208000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 10.7,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.2,
+        "yoy_pct": -1.83
+      },
+      {
+        "series_id": "SMU26296209000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 56.4,
+        "mom_chg": -2.1,
+        "yoy_chg": -4.1,
+        "yoy_pct": -6.78
+      },
+      {
+        "series_id": "SMU26296209091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 1.8,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -5.26
+      },
+      {
+        "series_id": "SMU26296209092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 36.0,
+        "mom_chg": -0.5,
+        "yoy_chg": -4.2,
+        "yoy_pct": -10.45
+      },
+      {
+        "series_id": "SMU26296209092161101          ",
+        "industry_code": "90921611",
+        "industry_name": "State Government Educational Services",
+        "depth": 5,
+        "current_val": 18.7,
+        "mom_chg": 0.3,
+        "yoy_chg": -2.3,
+        "yoy_pct": -10.95
+      },
+      {
+        "series_id": "SMU26296209093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 18.6,
+        "mom_chg": -1.6,
+        "yoy_chg": 0.2,
+        "yoy_pct": 1.09
+      }
+    ],
+    "33220": [
+      {
+        "series_id": "SMU26332200000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 39.8,
+        "mom_chg": -0.2,
+        "yoy_chg": -0.4,
+        "yoy_pct": -1.0
+      },
+      {
+        "series_id": "SMU26332200500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 36.8,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.5,
+        "yoy_pct": -1.34
+      },
+      {
+        "series_id": "SMU26332200600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 7.4,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.4,
+        "yoy_pct": -5.13
+      },
+      {
+        "series_id": "SMU26332200700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 32.4,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26332200800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 29.4,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.34
+      },
+      {
+        "series_id": "SMU26332209000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 3.0,
+        "mom_chg": -0.3,
+        "yoy_chg": 0.1,
+        "yoy_pct": 3.45
+      }
+    ],
+    "33780": [
+      {
+        "series_id": "SMU26337800000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 42.8,
+        "mom_chg": -1.5,
+        "yoy_chg": 0.4,
+        "yoy_pct": 0.94
+      },
+      {
+        "series_id": "SMU26337800500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 37.6,
+        "mom_chg": -0.8,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.53
+      },
+      {
+        "series_id": "SMU26337800600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 7.6,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.2,
+        "yoy_pct": -2.56
+      },
+      {
+        "series_id": "SMU26337800700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 35.2,
+        "mom_chg": -1.5,
+        "yoy_chg": 0.6,
+        "yoy_pct": 1.73
+      },
+      {
+        "series_id": "SMU26337800800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 30.0,
+        "mom_chg": -0.8,
+        "yoy_chg": 0.4,
+        "yoy_pct": 1.35
+      },
+      {
+        "series_id": "SMU26337801500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 2.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26337803000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 5.5,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.2,
+        "yoy_pct": -3.51
+      },
+      {
+        "series_id": "SMU26337804000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 11.0,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26337804100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 1.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26337804200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 5.7,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 1.79
+      },
+      {
+        "series_id": "SMU26337804300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 3.7,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -2.63
+      },
+      {
+        "series_id": "SMU26337805500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 1.2,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26337806000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 5.5,
+        "mom_chg": -0.7,
+        "yoy_chg": 0.2,
+        "yoy_pct": 3.77
+      },
+      {
+        "series_id": "SMU26337806500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 5.2,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.2,
+        "yoy_pct": 4.0
+      },
+      {
+        "series_id": "SMU26337807000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 5.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 2.0
+      },
+      {
+        "series_id": "SMU26337808000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 1.8,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26337809000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 5.2,
+        "mom_chg": -0.7,
+        "yoy_chg": 0.2,
+        "yoy_pct": 4.0
+      }
+    ],
+    "34740": [
+      {
+        "series_id": "SMU26347400000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 65.5,
+        "mom_chg": -0.5,
+        "yoy_chg": -0.7,
+        "yoy_pct": -1.06
+      },
+      {
+        "series_id": "SMU26347400500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 58.3,
+        "mom_chg": 0.1,
+        "yoy_chg": -1.0,
+        "yoy_pct": -1.69
+      },
+      {
+        "series_id": "SMU26347400600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 17.2,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.4,
+        "yoy_pct": 2.38
+      },
+      {
+        "series_id": "SMU26347400700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 48.3,
+        "mom_chg": -0.6,
+        "yoy_chg": -1.1,
+        "yoy_pct": -2.23
+      },
+      {
+        "series_id": "SMU26347400800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 41.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -1.4,
+        "yoy_pct": -3.29
+      },
+      {
+        "series_id": "SMU26347401500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 2.9,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 3.57
+      },
+      {
+        "series_id": "SMU26347403000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 14.3,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 2.14
+      },
+      {
+        "series_id": "SMU26347404000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 10.8,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.7,
+        "yoy_pct": -6.09
+      },
+      {
+        "series_id": "SMU26347404200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 8.4,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.4,
+        "yoy_pct": -4.55
+      },
+      {
+        "series_id": "SMU26347405000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 0.3,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26347405500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 1.9,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26347406000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 4.0,
+        "mom_chg": -0.3,
+        "yoy_chg": -0.1,
+        "yoy_pct": -2.44
+      },
+      {
+        "series_id": "SMU26347406500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 13.0,
+        "mom_chg": 0.3,
+        "yoy_chg": 0.1,
+        "yoy_pct": 0.78
+      },
+      {
+        "series_id": "SMU26347407000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 8.7,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.4,
+        "yoy_pct": -4.4
+      },
+      {
+        "series_id": "SMU26347407072000001          ",
+        "industry_code": "70720000",
+        "industry_name": "Accommodation and Food Services",
+        "depth": 3,
+        "current_val": 7.5,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.1,
+        "yoy_pct": 1.35
+      },
+      {
+        "series_id": "SMU26347408000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 2.4,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.3,
+        "yoy_pct": -11.11
+      },
+      {
+        "series_id": "SMU26347409000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 7.2,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.3,
+        "yoy_pct": 4.35
+      }
+    ],
+    "35660": [
+      {
+        "series_id": "SMU26356600000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 64.2,
+        "mom_chg": -1.4,
+        "yoy_chg": -0.2,
+        "yoy_pct": -0.31
+      },
+      {
+        "series_id": "SMU26356600500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 55.8,
+        "mom_chg": -1.0,
+        "yoy_chg": -0.2,
+        "yoy_pct": -0.36
+      },
+      {
+        "series_id": "SMU26356600600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 13.3,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.2,
+        "yoy_pct": -1.48
+      },
+      {
+        "series_id": "SMU26356600700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 50.9,
+        "mom_chg": -1.4,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26356600800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 42.5,
+        "mom_chg": -1.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26356601500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 2.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.2,
+        "yoy_pct": -8.7
+      },
+      {
+        "series_id": "SMU26356603000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 11.2,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26356604000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 12.1,
+        "mom_chg": -0.2,
+        "yoy_chg": -0.2,
+        "yoy_pct": -1.63
+      },
+      {
+        "series_id": "SMU26356604200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 7.8,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26356605000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 0.5,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26356605500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 3.0,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -3.23
+      },
+      {
+        "series_id": "SMU26356606000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 4.9,
+        "mom_chg": -0.8,
+        "yoy_chg": 0.1,
+        "yoy_pct": 2.08
+      },
+      {
+        "series_id": "SMU26356606500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 10.3,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.3,
+        "yoy_pct": 3.0
+      },
+      {
+        "series_id": "SMU26356607000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 8.7,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.14
+      },
+      {
+        "series_id": "SMU26356608000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 3.0,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26356609000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 8.4,
+        "mom_chg": -0.4,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      }
+    ],
+    "40980": [
+      {
+        "series_id": "SMU26409800000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 85.5,
+        "mom_chg": -0.4,
+        "yoy_chg": 0.9,
+        "yoy_pct": 1.06
+      },
+      {
+        "series_id": "SMU26409800500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 74.9,
+        "mom_chg": 0.2,
+        "yoy_chg": 0.9,
+        "yoy_pct": 1.22
+      },
+      {
+        "series_id": "SMU26409800600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 15.8,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.6,
+        "yoy_pct": 3.95
+      },
+      {
+        "series_id": "SMU26409800700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 69.7,
+        "mom_chg": -0.5,
+        "yoy_chg": 0.3,
+        "yoy_pct": 0.43
+      },
+      {
+        "series_id": "SMU26409800800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 59.1,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 0.51
+      },
+      {
+        "series_id": "SMU26409801500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 3.9,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 2.63
+      },
+      {
+        "series_id": "SMU26409803000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 11.9,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.5,
+        "yoy_pct": 4.39
+      },
+      {
+        "series_id": "SMU26409803100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 10.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.2,
+        "yoy_pct": 1.92
+      },
+      {
+        "series_id": "SMU26409803133600001          ",
+        "industry_code": "31336000",
+        "industry_name": "Transportation Equipment Manufacturing",
+        "depth": 4,
+        "current_val": 3.1,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26409804000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 16.5,
+        "mom_chg": 0.2,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.6
+      },
+      {
+        "series_id": "SMU26409804100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 2.7,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26409804200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 11.1,
+        "mom_chg": 0.2,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26409804300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 2.7,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -3.57
+      },
+      {
+        "series_id": "SMU26409805000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 0.5,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -16.67
+      },
+      {
+        "series_id": "SMU26409805500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 4.0,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26409806000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 9.0,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.1,
+        "yoy_pct": 1.12
+      },
+      {
+        "series_id": "SMU26409806500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 16.3,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.4,
+        "yoy_pct": 2.52
+      },
+      {
+        "series_id": "SMU26409807000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 9.7,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.1,
+        "yoy_pct": 1.04
+      },
+      {
+        "series_id": "SMU26409808000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 3.1,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -3.13
+      },
+      {
+        "series_id": "SMU26409809000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 10.6,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26409809091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 1.6,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -5.88
+      },
+      {
+        "series_id": "SMU26409809092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 2.4,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.1,
+        "yoy_pct": 4.35
+      },
+      {
+        "series_id": "SMU26409809093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 6.6,
+        "mom_chg": -0.7,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      }
+    ],
+    "45900": [
+      {
+        "series_id": "SMU26459000000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 77.6,
+        "mom_chg": 0.9,
+        "yoy_chg": -0.3,
+        "yoy_pct": -0.39
+      },
+      {
+        "series_id": "SMU26459000500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 68.2,
+        "mom_chg": 1.5,
+        "yoy_chg": -0.5,
+        "yoy_pct": -0.73
+      },
+      {
+        "series_id": "SMU26459000600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 12.6,
+        "mom_chg": 0.4,
+        "yoy_chg": 0.1,
+        "yoy_pct": 0.8
+      },
+      {
+        "series_id": "SMU26459000700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 65.0,
+        "mom_chg": 0.5,
+        "yoy_chg": -0.4,
+        "yoy_pct": -0.61
+      },
+      {
+        "series_id": "SMU26459000800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 55.6,
+        "mom_chg": 1.1,
+        "yoy_chg": -0.6,
+        "yoy_pct": -1.07
+      },
+      {
+        "series_id": "SMU26459001500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 6.3,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26459003000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 6.3,
+        "mom_chg": 0.3,
+        "yoy_chg": 0.1,
+        "yoy_pct": 1.61
+      },
+      {
+        "series_id": "SMU26459004000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 13.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.3,
+        "yoy_pct": -2.24
+      },
+      {
+        "series_id": "SMU26459004100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 2.2,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -4.35
+      },
+      {
+        "series_id": "SMU26459004200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 9.5,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.04
+      },
+      {
+        "series_id": "SMU26459004300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 1.4,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -6.67
+      },
+      {
+        "series_id": "SMU26459005000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 0.8,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -11.11
+      },
+      {
+        "series_id": "SMU26459005500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 4.5,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26459006000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 5.9,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26459006500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 15.3,
+        "mom_chg": 0.3,
+        "yoy_chg": -0.2,
+        "yoy_pct": -1.29
+      },
+      {
+        "series_id": "SMU26459007000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 13.0,
+        "mom_chg": 0.8,
+        "yoy_chg": 0.1,
+        "yoy_pct": 0.78
+      },
+      {
+        "series_id": "SMU26459008000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 3.0,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -3.23
+      },
+      {
+        "series_id": "SMU26459009000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 9.4,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.2,
+        "yoy_pct": 2.17
+      },
+      {
+        "series_id": "SMU26459009091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 0.8,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26459009092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 0.5,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26459009093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 8.1,
+        "mom_chg": -0.6,
+        "yoy_chg": 0.2,
+        "yoy_pct": 2.53
+      }
+    ],
+    "47664": [
+      {
+        "series_id": "SMU26476640000000001          ",
+        "industry_code": "00000000",
+        "industry_name": "Total Nonfarm",
+        "depth": 0,
+        "current_val": 1270.7,
+        "mom_chg": -17.5,
+        "yoy_chg": 5.9,
+        "yoy_pct": 0.47
+      },
+      {
+        "series_id": "SMU26476640500000001          ",
+        "industry_code": "05000000",
+        "industry_name": "Total Private",
+        "depth": 1,
+        "current_val": 1173.5,
+        "mom_chg": -9.1,
+        "yoy_chg": 5.4,
+        "yoy_pct": 0.46
+      },
+      {
+        "series_id": "SMU26476640600000001          ",
+        "industry_code": "06000000",
+        "industry_name": "Goods Producing",
+        "depth": 1,
+        "current_val": 215.8,
+        "mom_chg": -0.1,
+        "yoy_chg": 2.5,
+        "yoy_pct": 1.17
+      },
+      {
+        "series_id": "SMU26476640700000001          ",
+        "industry_code": "07000000",
+        "industry_name": "Service-Providing",
+        "depth": 1,
+        "current_val": 1054.9,
+        "mom_chg": -17.4,
+        "yoy_chg": 3.4,
+        "yoy_pct": 0.32
+      },
+      {
+        "series_id": "SMU26476640800000001          ",
+        "industry_code": "08000000",
+        "industry_name": "Private Service Providing",
+        "depth": 1,
+        "current_val": 957.7,
+        "mom_chg": -9.0,
+        "yoy_chg": 2.9,
+        "yoy_pct": 0.3
+      },
+      {
+        "series_id": "SMU26476641500000001          ",
+        "industry_code": "15000000",
+        "industry_name": "Mining, Logging and Construction",
+        "depth": 2,
+        "current_val": 67.0,
+        "mom_chg": 0.8,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.3
+      },
+      {
+        "series_id": "SMU26476642023800001          ",
+        "industry_code": "20238000",
+        "industry_name": "Specialty Trade Contractors",
+        "depth": 4,
+        "current_val": 43.0,
+        "mom_chg": 0.6,
+        "yoy_chg": -0.5,
+        "yoy_pct": -1.15
+      },
+      {
+        "series_id": "SMU26476643000000001          ",
+        "industry_code": "30000000",
+        "industry_name": "Manufacturing",
+        "depth": 2,
+        "current_val": 148.8,
+        "mom_chg": -0.9,
+        "yoy_chg": 2.3,
+        "yoy_pct": 1.57
+      },
+      {
+        "series_id": "SMU26476643100000001          ",
+        "industry_code": "31000000",
+        "industry_name": "Durable Goods",
+        "depth": 2,
+        "current_val": 122.3,
+        "mom_chg": -0.7,
+        "yoy_chg": 2.8,
+        "yoy_pct": 2.34
+      },
+      {
+        "series_id": "SMU26476643133200001          ",
+        "industry_code": "31332000",
+        "industry_name": "Fabricated Metal Product Manufacturing",
+        "depth": 4,
+        "current_val": 20.4,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 1.49
+      },
+      {
+        "series_id": "SMU26476643133300001          ",
+        "industry_code": "31333000",
+        "industry_name": "Machinery Manufacturing",
+        "depth": 4,
+        "current_val": 21.8,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.46
+      },
+      {
+        "series_id": "SMU26476643133600001          ",
+        "industry_code": "31336000",
+        "industry_name": "Transportation Equipment Manufacturing",
+        "depth": 4,
+        "current_val": 57.4,
+        "mom_chg": -0.6,
+        "yoy_chg": 1.6,
+        "yoy_pct": 2.87
+      },
+      {
+        "series_id": "SMU26476643133610001          ",
+        "industry_code": "31336100",
+        "industry_name": "Motor Vehicle Manufacturing",
+        "depth": 4,
+        "current_val": 9.8,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.8,
+        "yoy_pct": 8.89
+      },
+      {
+        "series_id": "SMU26476643133630001          ",
+        "industry_code": "31336300",
+        "industry_name": "Motor Vehicle Parts Manufacturing",
+        "depth": 4,
+        "current_val": 43.7,
+        "mom_chg": -0.5,
+        "yoy_chg": 1.0,
+        "yoy_pct": 2.34
+      },
+      {
+        "series_id": "SMU26476643200000001          ",
+        "industry_code": "32000000",
+        "industry_name": "Non-Durable Goods",
+        "depth": 2,
+        "current_val": 26.5,
+        "mom_chg": -0.2,
+        "yoy_chg": -0.5,
+        "yoy_pct": -1.85
+      },
+      {
+        "series_id": "SMU26476644000000001          ",
+        "industry_code": "40000000",
+        "industry_name": "Trade, Transportation, and Utilities",
+        "depth": 2,
+        "current_val": 221.9,
+        "mom_chg": -0.2,
+        "yoy_chg": -0.7,
+        "yoy_pct": -0.31
+      },
+      {
+        "series_id": "SMU26476644100000001          ",
+        "industry_code": "41000000",
+        "industry_name": "Wholesale Trade",
+        "depth": 2,
+        "current_val": 56.5,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.6,
+        "yoy_pct": -1.05
+      },
+      {
+        "series_id": "SMU26476644142300001          ",
+        "industry_code": "41423000",
+        "industry_name": "Merchant Wholesalers, Durable Goods",
+        "depth": 4,
+        "current_val": 39.7,
+        "mom_chg": -0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -0.25
+      },
+      {
+        "series_id": "SMU26476644142400001          ",
+        "industry_code": "41424000",
+        "industry_name": "Merchant Wholesalers, Nondurable Goods",
+        "depth": 4,
+        "current_val": 13.2,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.4,
+        "yoy_pct": -2.94
+      },
+      {
+        "series_id": "SMU26476644142500001          ",
+        "industry_code": "41425000",
+        "industry_name": "Wholesale Trade Agents and Brokers",
+        "depth": 4,
+        "current_val": 3.6,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.1,
+        "yoy_pct": -2.7
+      },
+      {
+        "series_id": "SMU26476644200000001          ",
+        "industry_code": "42000000",
+        "industry_name": "Retail Trade",
+        "depth": 2,
+        "current_val": 130.5,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.46
+      },
+      {
+        "series_id": "SMU26476644244100001          ",
+        "industry_code": "42441000",
+        "industry_name": "Motor Vehicle and Parts Dealers",
+        "depth": 4,
+        "current_val": 18.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.3,
+        "yoy_pct": -1.63
+      },
+      {
+        "series_id": "SMU26476644245500001          ",
+        "industry_code": "42455000",
+        "industry_name": "General Merchandise Retailers",
+        "depth": 4,
+        "current_val": 28.3,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.71
+      },
+      {
+        "series_id": "SMU26476644245600001          ",
+        "industry_code": "42456000",
+        "industry_name": "Health and Personal Care Retailers",
+        "depth": 4,
+        "current_val": 10.8,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.3,
+        "yoy_pct": -2.7
+      },
+      {
+        "series_id": "SMU26476644300000001          ",
+        "industry_code": "43000000",
+        "industry_name": "Transportation, Warehousing, and Utilities",
+        "depth": 2,
+        "current_val": 34.9,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.7,
+        "yoy_pct": -1.97
+      },
+      {
+        "series_id": "SMU26476645000000001          ",
+        "industry_code": "50000000",
+        "industry_name": "Information",
+        "depth": 2,
+        "current_val": 20.4,
+        "mom_chg": 0.0,
+        "yoy_chg": -1.0,
+        "yoy_pct": -4.67
+      },
+      {
+        "series_id": "SMU26476645500000001          ",
+        "industry_code": "55000000",
+        "industry_name": "Financial Activities",
+        "depth": 2,
+        "current_val": 92.9,
+        "mom_chg": -0.4,
+        "yoy_chg": 1.0,
+        "yoy_pct": 1.09
+      },
+      {
+        "series_id": "SMU26476645552000001          ",
+        "industry_code": "55520000",
+        "industry_name": "Finance and Insurance",
+        "depth": 3,
+        "current_val": 66.4,
+        "mom_chg": -0.4,
+        "yoy_chg": 1.0,
+        "yoy_pct": 1.53
+      },
+      {
+        "series_id": "SMU26476645552200001          ",
+        "industry_code": "55522000",
+        "industry_name": "Credit Intermediation and Related Activities including Monetary Authorities - Central Bank",
+        "depth": 4,
+        "current_val": 30.6,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.66
+      },
+      {
+        "series_id": "SMU26476645552400001          ",
+        "industry_code": "55524000",
+        "industry_name": "Insurance Carriers and Related Activities",
+        "depth": 4,
+        "current_val": 28.6,
+        "mom_chg": -0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 1.06
+      },
+      {
+        "series_id": "SMU26476645553000001          ",
+        "industry_code": "55530000",
+        "industry_name": "Real Estate and Rental and Leasing",
+        "depth": 3,
+        "current_val": 26.5,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.0,
+        "yoy_pct": 0.0
+      },
+      {
+        "series_id": "SMU26476646000000001          ",
+        "industry_code": "60000000",
+        "industry_name": "Professional and Business Services",
+        "depth": 2,
+        "current_val": 245.7,
+        "mom_chg": -6.1,
+        "yoy_chg": 0.6,
+        "yoy_pct": 0.24
+      },
+      {
+        "series_id": "SMU26476646054000001          ",
+        "industry_code": "60540000",
+        "industry_name": "Professional, Scientific, and Technical Services",
+        "depth": 3,
+        "current_val": 142.6,
+        "mom_chg": 0.2,
+        "yoy_chg": 2.3,
+        "yoy_pct": 1.64
+      },
+      {
+        "series_id": "SMU26476646054110001          ",
+        "industry_code": "60541100",
+        "industry_name": "Legal Services",
+        "depth": 4,
+        "current_val": 14.0,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.3,
+        "yoy_pct": 2.19
+      },
+      {
+        "series_id": "SMU26476646054130001          ",
+        "industry_code": "60541300",
+        "industry_name": "Architectural, Engineering, and Related Services",
+        "depth": 4,
+        "current_val": 50.0,
+        "mom_chg": -0.2,
+        "yoy_chg": 0.8,
+        "yoy_pct": 1.63
+      },
+      {
+        "series_id": "SMU26476646054150001          ",
+        "industry_code": "60541500",
+        "industry_name": "Computer Systems Design and Related Services",
+        "depth": 4,
+        "current_val": 22.1,
+        "mom_chg": 0.0,
+        "yoy_chg": -0.6,
+        "yoy_pct": -2.64
+      },
+      {
+        "series_id": "SMU26476646055000001          ",
+        "industry_code": "60550000",
+        "industry_name": "Management of Companies and Enterprises",
+        "depth": 3,
+        "current_val": 25.1,
+        "mom_chg": -0.3,
+        "yoy_chg": -0.5,
+        "yoy_pct": -1.95
+      },
+      {
+        "series_id": "SMU26476646056000001          ",
+        "industry_code": "60560000",
+        "industry_name": "Administrative and Support and Waste Management and Remediation Services",
+        "depth": 3,
+        "current_val": 78.0,
+        "mom_chg": -6.0,
+        "yoy_chg": -1.2,
+        "yoy_pct": -1.52
+      },
+      {
+        "series_id": "SMU26476646056130001          ",
+        "industry_code": "60561300",
+        "industry_name": "Employment Services",
+        "depth": 4,
+        "current_val": 26.6,
+        "mom_chg": -4.6,
+        "yoy_chg": 1.1,
+        "yoy_pct": 4.31
+      },
+      {
+        "series_id": "SMU26476646500000001          ",
+        "industry_code": "65000000",
+        "industry_name": "Private Education and Health Services",
+        "depth": 2,
+        "current_val": 202.5,
+        "mom_chg": -1.0,
+        "yoy_chg": 1.5,
+        "yoy_pct": 0.75
+      },
+      {
+        "series_id": "SMU26476646562000001          ",
+        "industry_code": "65620000",
+        "industry_name": "Health Care and Social Assistance",
+        "depth": 3,
+        "current_val": 187.5,
+        "mom_chg": 0.4,
+        "yoy_chg": 3.4,
+        "yoy_pct": 1.85
+      },
+      {
+        "series_id": "SMU26476646562100001          ",
+        "industry_code": "65621000",
+        "industry_name": "Ambulatory Health Care Services",
+        "depth": 4,
+        "current_val": 83.0,
+        "mom_chg": 0.1,
+        "yoy_chg": 2.2,
+        "yoy_pct": 2.72
+      },
+      {
+        "series_id": "SMU26476646562200001          ",
+        "industry_code": "65622000",
+        "industry_name": "Hospitals",
+        "depth": 4,
+        "current_val": 46.7,
+        "mom_chg": 0.2,
+        "yoy_chg": 0.5,
+        "yoy_pct": 1.08
+      },
+      {
+        "series_id": "SMU26476646562300001          ",
+        "industry_code": "65623000",
+        "industry_name": "Nursing and Residential Care Facilities",
+        "depth": 4,
+        "current_val": 31.2,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.5,
+        "yoy_pct": 1.63
+      },
+      {
+        "series_id": "SMU26476646562400001          ",
+        "industry_code": "65624000",
+        "industry_name": "Social Assistance",
+        "depth": 4,
+        "current_val": 26.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.2,
+        "yoy_pct": 0.76
+      },
+      {
+        "series_id": "SMU26476647000000001          ",
+        "industry_code": "70000000",
+        "industry_name": "Leisure and Hospitality",
+        "depth": 2,
+        "current_val": 126.6,
+        "mom_chg": -0.8,
+        "yoy_chg": 2.2,
+        "yoy_pct": 1.77
+      },
+      {
+        "series_id": "SMU26476647071000001          ",
+        "industry_code": "70710000",
+        "industry_name": "Arts, Entertainment, and Recreation",
+        "depth": 3,
+        "current_val": 21.7,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.6,
+        "yoy_pct": 2.84
+      },
+      {
+        "series_id": "SMU26476647072000001          ",
+        "industry_code": "70720000",
+        "industry_name": "Accommodation and Food Services",
+        "depth": 3,
+        "current_val": 104.9,
+        "mom_chg": -0.9,
+        "yoy_chg": 1.6,
+        "yoy_pct": 1.55
+      },
+      {
+        "series_id": "SMU26476647072250001          ",
+        "industry_code": "70722500",
+        "industry_name": "Restaurants and Other Eating Places",
+        "depth": 4,
+        "current_val": 86.9,
+        "mom_chg": -0.6,
+        "yoy_chg": 1.5,
+        "yoy_pct": 1.76
+      },
+      {
+        "series_id": "SMU26476647072251101          ",
+        "industry_code": "70722511",
+        "industry_name": "Full-Service Restaurants",
+        "depth": 5,
+        "current_val": 44.8,
+        "mom_chg": -0.3,
+        "yoy_chg": 1.8,
+        "yoy_pct": 4.19
+      },
+      {
+        "series_id": "SMU26476647072259001          ",
+        "industry_code": "70722590",
+        "industry_name": "Limited-Service Restaurants and Other Eating Places",
+        "depth": 5,
+        "current_val": 42.1,
+        "mom_chg": -0.3,
+        "yoy_chg": -0.3,
+        "yoy_pct": -0.71
+      },
+      {
+        "series_id": "SMU26476648000000001          ",
+        "industry_code": "80000000",
+        "industry_name": "Other Services",
+        "depth": 2,
+        "current_val": 47.7,
+        "mom_chg": -0.5,
+        "yoy_chg": -0.7,
+        "yoy_pct": -1.45
+      },
+      {
+        "series_id": "SMU26476649000000001          ",
+        "industry_code": "90000000",
+        "industry_name": "Government",
+        "depth": 2,
+        "current_val": 97.2,
+        "mom_chg": -8.4,
+        "yoy_chg": 0.5,
+        "yoy_pct": 0.52
+      },
+      {
+        "series_id": "SMU26476649091000001          ",
+        "industry_code": "90910000",
+        "industry_name": "Federal Government",
+        "depth": 3,
+        "current_val": 12.4,
+        "mom_chg": 0.1,
+        "yoy_chg": -1.7,
+        "yoy_pct": -12.06
+      },
+      {
+        "series_id": "SMU26476649091912001          ",
+        "industry_code": "90919120",
+        "industry_name": "U.S. Postal Service",
+        "depth": 5,
+        "current_val": 5.4,
+        "mom_chg": 0.1,
+        "yoy_chg": -0.1,
+        "yoy_pct": -1.82
+      },
+      {
+        "series_id": "SMU26476649092000001          ",
+        "industry_code": "90920000",
+        "industry_name": "State Government",
+        "depth": 3,
+        "current_val": 7.6,
+        "mom_chg": 0.0,
+        "yoy_chg": 0.1,
+        "yoy_pct": 1.33
+      },
+      {
+        "series_id": "SMU26476649092161101          ",
+        "industry_code": "90921611",
+        "industry_name": "State Government Educational Services",
+        "depth": 5,
+        "current_val": 3.2,
+        "mom_chg": 0.1,
+        "yoy_chg": 0.1,
+        "yoy_pct": 3.23
+      },
+      {
+        "series_id": "SMU26476649093000001          ",
+        "industry_code": "90930000",
+        "industry_name": "Local Government",
+        "depth": 3,
+        "current_val": 77.2,
+        "mom_chg": -8.5,
+        "yoy_chg": 2.1,
+        "yoy_pct": 2.8
+      },
+      {
+        "series_id": "SMU26476649093161101          ",
+        "industry_code": "90931611",
+        "industry_name": "Local Government Educational Services",
+        "depth": 5,
+        "current_val": 40.0,
+        "mom_chg": -8.1,
+        "yoy_chg": 0.5,
+        "yoy_pct": 1.27
+      }
+    ]
+  }
+}

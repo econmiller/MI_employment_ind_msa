@@ -19,6 +19,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -30,6 +31,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add michigan_employment.json
+          git add public/data/
           git status
           git diff --staged --quiet || (git commit -m "Auto-update BLS employment data [skip ci]" && git push)

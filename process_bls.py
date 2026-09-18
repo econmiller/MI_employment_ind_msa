@@ -1,16 +1,15 @@
 import io
 import json
 import os
+import shutil
 import pandas as pd
 import requests
 
-# BLS blocks generic User-Agents. Always provide an identifier.
 HEADERS = {
     "User-Agent": "MichiganEmploymentTracker/1.0 (contact@example.com)"
 }
 BASE_URL = "https://download.bls.gov/pub/time.series/sm/"
 
-# Aggregate domain codes to exclude so all major supersectors attach directly to Total Nonfarm
 EXCLUDED_CODES = {
     "05000000",  # Total Private
     "06000000",  # Goods Producing
@@ -20,7 +19,6 @@ EXCLUDED_CODES = {
 
 
 def fetch_bls_tsv(filename: str) -> pd.DataFrame:
-  """Fetch a TSV flat file from BLS, clean whitespace, and return a DataFrame."""
   print(f"Fetching {filename}...")
   url = BASE_URL + filename
   res = requests.get(url, headers=HEADERS)
@@ -32,19 +30,10 @@ def fetch_bls_tsv(filename: str) -> pd.DataFrame:
 
 
 def assign_clean_depth(ind_code: str) -> int:
-  """Assign clean hierarchy levels.
-
-  Level 0: Total Nonfarm
-  Level 1: Major Supersectors (Mining, Construction, Manufacturing, Trade,
-  Gov)
-  Level 2: Subsectors (Durable/Non-Durable Goods 31/32, Wholesale/Retail/Trans
-  41/42/43)
-  Level 3+: Detailed NAICS industries
-  """
   if ind_code == "00000000":
     return 0
 
-  # Supersectors: Ending in 7 zeros, or broad codes except specific level-2 subsectors
+  # Supersectors: Level 1
   if ind_code.endswith("0000000") or (
       ind_code.endswith("000000")
       and ind_code
@@ -52,7 +41,7 @@ def assign_clean_depth(ind_code: str) -> int:
   ):
     return 1
 
-  # Subsectors under Manufacturing (30000000) & Trade/Trans/Utilities (40000000)
+  # Subsectors: Level 2
   if ind_code in [
       "31000000",
       "32000000",
@@ -69,53 +58,10 @@ def assign_clean_depth(ind_code: str) -> int:
   return 4
 
 
-def build_nested_tree(records: list[dict]) -> list[dict]:
-  """Transform a flat list of records into a nested _children tree structure."""
-  root_nodes = []
-  stack = []
-
-  for item in records:
-    # Prepare node with empty children array
-    node = dict(item)
-    node["_children"] = []
-    depth = node["clean_depth"]
-
-    if depth == 0:
-      root_nodes.append(node)
-      stack.clear()
-      stack.append(node)
-    else:
-      # Pop stack until we find a parent node at an earlier depth
-      while stack and stack[-1]["clean_depth"] >= depth:
-        stack.pop()
-
-      if stack:
-        stack[-1]["_children"].append(node)
-      else:
-        # Fallback: attach directly under root if orphan
-        if root_nodes:
-          root_nodes[0]["_children"].append(node)
-        else:
-          root_nodes.append(node)
-
-      stack.append(node)
-
-  # Clean up empty _children lists so Tabulator doesn't render inactive toggles
-  def prune_empty_children(nodes):
-    for n in nodes:
-      if not n["_children"]:
-        del n["_children"]
-      else:
-        prune_empty_children(n["_children"])
-
-  prune_empty_children(root_nodes)
-  return root_nodes
-
-
 def run_pipeline():
   print("Starting BLS data pipeline...")
 
-  # 1. Reference metadata
+  # 1. Fetch metadata
   areas_df = fetch_bls_tsv("sm.area")
   industries_df = fetch_bls_tsv("sm.industry")
   series_df = fetch_bls_tsv("sm.series")
@@ -125,28 +71,23 @@ def run_pipeline():
       zip(industries_df["industry_code"], industries_df["industry_name"])
   )
 
-  # 2. Filter target Michigan non-seasonally adjusted employment series
+  # Filter Michigan Non-Seasonally Adjusted Employment series
   mi_series = series_df[
       (series_df["state_code"] == "26")
       & (series_df["data_type_code"] == "01")
       & (series_df["seasonal"] == "U")
   ].copy()
-
-  # Exclude domain codes
   mi_series = mi_series[~mi_series["industry_code"].isin(EXCLUDED_CODES)]
-  print(f"Tracking {len(mi_series)} distinct employment series.")
 
-  # 3. Fetch both Michigan data split files
+  # 2. Fetch split data
   df_23a = fetch_bls_tsv("sm.data.23a.Michigan")
   df_23b = fetch_bls_tsv("sm.data.23b.Michigan")
   data_df = pd.concat([df_23a, df_23b], ignore_index=True)
 
-  # Clean values and exclude annual averages (M13)
   data_df = data_df[data_df["period"] != "M13"].copy()
   data_df["value"] = pd.to_numeric(data_df["value"], errors="coerce")
   data_df = data_df[data_df["series_id"].isin(mi_series["series_id"])].copy()
 
-  # Construct sortable YYYY-MM
   data_df["month_num"] = data_df["period"].str.replace("M", "")
   data_df["year_month"] = (
       data_df["year"] + "-" + data_df["month_num"].str.zfill(2)
@@ -161,12 +102,6 @@ def run_pipeline():
       distinct_periods[-13] if len(distinct_periods) >= 13 else latest_period
   )
 
-  print(
-      f"Latest: {latest_period} | Prior: {prior_month} | Year-Ago:"
-      f" {prior_year}"
-  )
-
-  # Pivot target periods
   target_periods = [latest_period, prior_month, prior_year]
   filtered_data = data_df[data_df["year_month"].isin(target_periods)]
 
@@ -187,7 +122,6 @@ def run_pipeline():
       inplace=True,
   )
 
-  # Calculate changes
   pivoted["mom_chg"] = (
       pivoted["current_val"] - pivoted["prev_month_val"]
   ).round(2)
@@ -202,7 +136,6 @@ def run_pipeline():
       * 100
   ).round(2)
 
-  # Merge metadata
   merged = pd.merge(mi_series, pivoted, on="series_id", how="inner")
   merged["industry_name"] = merged["industry_code"].map(
       lambda c: industry_dict.get(c, f"Industry {c}")
@@ -212,8 +145,14 @@ def run_pipeline():
   )
   merged["clean_depth"] = merged["industry_code"].apply(assign_clean_depth)
 
-  # 4. Build output schema with pre-nested trees
-  output_data = {
+  # OPTIMIZATION 1: Drop all levels deeper than Level 3
+  merged = merged[merged["clean_depth"] <= 3].copy()
+
+  # OPTIMIZATION 2: Split output into per-area files
+  output_dir = os.path.join("public", "data", "areas")
+  os.makedirs(output_dir, exist_ok=True)
+
+  metadata_payload = {
       "metadata": {
           "latest_period": latest_period,
           "prior_month": prior_month,
@@ -221,14 +160,13 @@ def run_pipeline():
           "unit": "Thousands of Persons",
       },
       "areas": {},
-      "trees": {},  # Fully nested trees per area code
   }
 
   for area_code, group in merged.groupby("area_code"):
     area_title = area_dict.get(area_code, f"Area {area_code}")
-    output_data["areas"][area_code] = area_title
+    metadata_payload["areas"][area_code] = area_title
 
-    # Sort so parent aggregate rows always precede child industries
+    # Preserve natural parent-before-child ordering
     group_sorted = group.sort_values(by=["industry_code"])
 
     records = []
@@ -254,15 +192,19 @@ def run_pipeline():
           ),
       })
 
-    # Build and store nested hierarchy for this area
-    output_data["trees"][area_code] = build_nested_tree(records)
+    # Save per-area JSON file
+    area_file_path = os.path.join(output_dir, f"{area_code}.json")
+    with open(area_file_path, "w", encoding="utf-8") as f:
+      json.dump(records, f, separators=(",", ":"))
 
-  # 5. Save output (minified for quick transfer)
-  output_path = "michigan_employment.json"
-  with open(output_path, "w", encoding="utf-8") as f:
-    json.dump(output_data, f, separators=(",", ":"))
+  # Save metadata JSON file
+  meta_file_path = os.path.join("public", "data", "metadata.json")
+  with open(meta_file_path, "w", encoding="utf-8") as f:
+    json.dump(metadata_payload, f, separators=(",", ":"))
 
-  print(f"\nSuccess! Pre-nested tree saved to: {output_path}")
+  print(f"\nPipeline finished.")
+  print(f"Metadata written to: {meta_file_path}")
+  print(f"Generated {len(metadata_payload['areas'])} area files in {output_dir}")
 
 
 if __name__ == "__main__":

@@ -26,7 +26,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run BLS ETL Pipeline
-        run: python scripts/process_bls.py
+        run: python process_bls.py
 
       - name: Commit and push updated data
         run: |

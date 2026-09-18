@@ -37,21 +37,29 @@ def assign_clean_depth(ind_code: str) -> int:
   Level 0: Total Nonfarm
   Level 1: Major Supersectors (Mining, Construction, Manufacturing, Trade,
   Gov)
-  Level 2: Subsectors (Durable Goods 31000000 and Non-Durable 32000000 under
-  30000000)
+  Level 2: Subsectors (Durable/Non-Durable Goods 31/32, Wholesale/Retail/Trans
+  41/42/43)
   Level 3+: Detailed NAICS industries
   """
   if ind_code == "00000000":
     return 0
 
-  # Supersectors: Ending in 7 zeros, or broad codes except 31000000 & 32000000
+  # Supersectors: Ending in 7 zeros, or broad codes except specific level-2 subsectors
   if ind_code.endswith("0000000") or (
-      ind_code.endswith("000000") and ind_code not in ["31000000", "32000000", "41000000", "42000000", "43000000"]
+      ind_code.endswith("000000")
+      and ind_code
+      not in ["31000000", "32000000", "41000000", "42000000", "43000000"]
   ):
     return 1
 
-  # Durable Goods & Non-Durable Goods are Level 2 under Manufacturing (30000000)
-  if ind_code in ["31000000", "32000000", "41000000", "42000000", "43000000"]:
+  # Subsectors under Manufacturing (30000000) & Trade/Trans/Utilities (40000000)
+  if ind_code in [
+      "31000000",
+      "32000000",
+      "41000000",
+      "42000000",
+      "43000000",
+  ]:
     return 2
 
   if ind_code.endswith("0000"):

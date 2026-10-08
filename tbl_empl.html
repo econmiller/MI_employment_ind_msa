@@ -1,0 +1,274 @@
+<!-- Tabulator Assets -->
+<link href="https://unpkg.com/tabulator-tables@5.6.1/dist/css/tabulator_simple.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.6.1/dist/js/tabulator.min.js"></script>
+
+<style>
+  .msu-widget-container {
+    max-width: 1200px;
+    margin: 1.5rem auto;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid #18453B;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    color: #212529;
+  }
+  .msu-header-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+    gap: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #d1d5db;
+  }
+  .msu-title {
+    margin: 0 0 0.25rem 0;
+    color: #18453B;
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+  .msu-meta-tag {
+    font-size: 0.88rem;
+    color: #555555;
+  }
+  .msu-selector-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .msu-selector-box label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #18453B;
+  }
+  .msu-select {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+    color: #212529;
+    border: 1.5px solid #18453B;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .msu-table-wrapper {
+    position: relative;
+    min-height: 250px;
+  }
+  #msu-loading-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+  }
+  .msu-spinner {
+    width: 36px;
+    height: 36px;
+    border: 3px solid #e8f0ed;
+    border-top: 3px solid #18453B;
+    border-radius: 50%;
+    animation: msu-spin 0.8s linear infinite;
+    margin-bottom: 0.5rem;
+  }
+  @keyframes msu-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  /* Table styling */
+  .msu-widget-container .tabulator {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  .msu-widget-container .tabulator .tabulator-header {
+    background-color: #18453B !important;
+    color: #ffffff !important;
+    font-weight: 700;
+  }
+  .msu-widget-container .tabulator .tabulator-header .tabulator-col {
+    background-color: #18453B !important;
+  }
+  .msu-widget-container .tabulator-row:hover {
+    background-color: #e8f0ed !important;
+  }
+  .msu-depth-0 { font-weight: 800; color: #18453B; padding-left: 0px; }
+  .msu-depth-1 { font-weight: 700; color: #1e3a32; padding-left: 12px; }
+  .msu-depth-2 { font-weight: 600; color: #2d3748; padding-left: 28px; }
+  .msu-depth-3 { font-weight: 400; color: #4a5568; padding-left: 44px; }
+  .msu-tree-marker { color: #94a3b8; margin-right: 4px; }
+</style>
+
+<div class="msu-widget-container">
+  <div class="msu-header-panel">
+    <div>
+      <div class="msu-title">Michigan Industry Employment Conditions</div>
+      <div id="msu-meta-info" class="msu-meta-tag">Connecting to data repository...</div>
+    </div>
+    <div class="msu-selector-box">
+      <label for="msu-area-select">Region:</label>
+      <select id="msu-area-select" class="msu-select">
+        <option value="">Loading areas...</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="msu-table-wrapper">
+    <div id="msu-loading-overlay">
+      <div class="msu-spinner"></div>
+      <div id="msu-loading-msg" style="font-weight:600; color:#18453B;">Fetching data...</div>
+    </div>
+    <div id="msu-employment-table"></div>
+  </div>
+</div>
+
+<script>
+(function() {
+  // Using jsDelivr CDN endpoint for guaranteed open CORS headers
+  const BASE_URL = "https://cdn.jsdelivr.net/gh/econmiller/MI_employment_ind_msa@main/public/data";
+
+  let metaPayload = null;
+  let table = null;
+  const areaCache = {};
+
+  const overlay = document.getElementById("msu-loading-overlay");
+  const loadingMsg = document.getElementById("msu-loading-msg");
+  const dropdown = document.getElementById("msu-area-select");
+
+  function showLoading(msg) {
+    if (loadingMsg) loadingMsg.textContent = msg;
+    if (overlay) overlay.style.display = "flex";
+  }
+
+  function hideLoading() {
+    if (overlay) overlay.style.display = "none";
+  }
+
+  async function fetchArea(areaCode) {
+    if (areaCache[areaCode]) return areaCache[areaCode];
+    const res = await fetch(`${BASE_URL}/areas/${areaCode}.json`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    areaCache[areaCode] = data;
+    return data;
+  }
+
+  async function initWidget() {
+    showLoading("Fetching dataset info...");
+    try {
+      const res = await fetch(`${BASE_URL}/metadata.json`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      metaPayload = await res.json();
+
+      const meta = metaPayload.metadata;
+      const metaElem = document.getElementById("msu-meta-info");
+      if (metaElem) {
+        metaElem.textContent = `Data Release: ${meta.latest_period} (vs. ${meta.prior_month} & ${meta.prior_year}) | Expressed in ${meta.unit}`;
+      }
+
+      dropdown.innerHTML = "";
+      const sortedCodes = Object.keys(metaPayload.areas).sort((a, b) => {
+        if (a === "00000") return -1;
+        if (b === "00000") return 1;
+        return metaPayload.areas[a].localeCompare(metaPayload.areas[b]);
+      });
+
+      sortedCodes.forEach(code => {
+        const opt = document.createElement("option");
+        opt.value = code;
+        opt.textContent = metaPayload.areas[code];
+        dropdown.appendChild(opt);
+      });
+
+      const initialData = await fetchArea(sortedCodes[0]);
+      buildTable(initialData);
+
+      dropdown.addEventListener("change", async (e) => {
+        const code = e.target.value;
+        showLoading(`Loading ${metaPayload.areas[code]}...`);
+        try {
+          const data = await fetchArea(code);
+          table.setData(data);
+          hideLoading();
+        } catch (err) {
+          console.error(err);
+          if (loadingMsg) loadingMsg.textContent = "Error loading area.";
+        }
+      });
+
+    } catch (err) {
+      console.error("Widget load error:", err);
+      const metaElem = document.getElementById("msu-meta-info");
+      if (metaElem) metaElem.textContent = "Error loading dataset.";
+      if (loadingMsg) loadingMsg.textContent = "Failed to load data. Please refresh.";
+    }
+  }
+
+  function buildTable(initialData) {
+    table = new Tabulator("#msu-employment-table", {
+      data: initialData,
+      layout: "fitColumns",
+      responsiveLayout: "collapse",
+      columns: [
+        { 
+          title: "Industry Title", 
+          field: "industry_name", 
+          widthGrow: 3,
+          formatter: function(cell) {
+            const depth = cell.getRow().getData().clean_depth || 0;
+            const markers = ["", "▪ ", "└─ ", "├── "];
+            const marker = markers[depth] || "";
+            return `<div class="msu-depth-${depth}"><span class="msu-tree-marker">${marker}</span>${cell.getValue()}</div>`;
+          }
+        },
+        { title: "Code", field: "industry_code", hozAlign: "center", width: 100 },
+        { 
+          title: "Employment", 
+          field: "current_val", 
+          hozAlign: "right",
+          formatter: "money", 
+          formatterParams: { precision: 1 }
+        },
+        { 
+          title: "1-Mo Change", 
+          field: "mom_chg", 
+          hozAlign: "right",
+          formatter: cell => {
+            const v = cell.getValue();
+            if (v === null || v === undefined) return "-";
+            const color = v > 0 ? "#18453B" : v < 0 ? "#b91c1c" : "#666";
+            return `<span style="color:${color};font-weight:700;">${v > 0 ? '+' : ''}${v.toFixed(1)}</span>`;
+          }
+        },
+        { 
+          title: "1-Yr Change (%)", 
+          field: "yoy_pct", 
+          hozAlign: "right",
+          formatter: cell => {
+            const v = cell.getValue();
+            if (v === null || v === undefined) return "-";
+            const color = v > 0 ? "#18453B" : v < 0 ? "#b91c1c" : "#666";
+            return `<span style="color:${color};font-weight:700;">${v > 0 ? '+' : ''}${v.toFixed(2)}%</span>`;
+          }
+        }
+      ]
+    });
+
+    table.on("tableBuilt", () => {
+      hideLoading();
+    });
+  }
+
+  // Handle both dynamic CMS injection and standard load
+  if (document.readyState === "complete" || document.readyState === "interactive") {
+    initWidget();
+  } else {
+    document.addEventListener("DOMContentLoaded", initWidget);
+  }
+})();
+</script>
